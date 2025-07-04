@@ -61,7 +61,7 @@ let linkbackbox = `
 <div class="small-title"><img src="/graphics/bflower.png" alt="x" style="margin-left:2px;"> link back button :]</div>
 <center>
     <img src="/graphics/lunarlily88x31.gif" style="height: 31px; width: 88px;"> <br> 
-    <textarea style="width: 165px; height: 40px;"><a href="https://lunarlily.neocities.org/" target="_blank"><img src="https://eleventhcircle.github.io/lunarlily/public/graphics/lunarlily88x31.gif" alt="lunarlily">
+    <textarea style="width: 165px; height: 40px;"><a href="https://lunarlily.neocities.org/" target="_blank"><img src="https://github.com/eleventhcircle/lunarlily/blob/public/graphics/lunarlily88x31.gif" alt="lunarlily">
     </textarea>
 </center>
 <p>If you'd like to be neighbors, leave a message in the guestbook :]</p>
