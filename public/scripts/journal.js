@@ -28,23 +28,6 @@ Add a new item in the "messages" array, containing the message content (this can
 ============= */
 
 const latestPostsCutoff = 5; // number of blog posts displayed on home page
-const messagesOn = false; // whether or not to show a random message in the header
-
-// links listed in header (nav) and footer (contact)
-/* const navLinks = [
-{	"name": `BLOG NAME`,	"filename": `index`,	},
-{	"name": `About`,		"filename": `about`,	},
-{	"name": `Tags`,			"filename": `tags`,		},
-{	"name": `Archive`,		"filename": `archive`,	},
-];
-const contactLinks = [
-{	"name": `Neocities`,	"url": `https://example.com/`,	},
-{	"name": `Twitter`,		"url": `https://example.com/`,	},
-{	"name": `Codeberg`,		"url": `https://example.com/`,	},
-{	"name": `Itch`,			"url": `https://example.com/`,	},
-{	"name": `email`,		"url": `contact@example.com`,	},
-]; */
-
 
 
 /* ===============
@@ -57,21 +40,12 @@ const posts = [
 	"filename": `YYYY-MM-DD-Post-Template`,
 	"tags": [`example post`, `test tag`],
 },*/
+/*{
+	"title": `Despite everything, it's still a website`,
+	"filename": `2025-07-17-Despite-everything`,
+	"tags": [`2025`, `yapping`],
+}*/
 ];
-
-
-
-/* =============
-	MESSAGES
-============= */
-
-/* const messages = [
-	`test message 1`,
-	`test message b`,
-	`this message includes <em>inline <abbr>HTML</abbr></em>`,
-	`this message includes <a href="https://zombo.com/" rel="external">a link</a>`,
-]; */
-
 
 
 /* ======================

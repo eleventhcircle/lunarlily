@@ -17,6 +17,13 @@ xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=lun
 xhttp.send();
 // End tracker code
 
+// FFXIV random ad picker
+var imageArray = new Array();
+imageArray[0] = "/graphics/ffxivads/ffxiv_ad_blm.jpg";
+imageArray[1] = "/graphics/ffxivads/ffxiv_ad_pld.jpg";
+imageArray[2] = "/graphics/ffxivads/ffxiv_ad_rpr.jpg";
+imageArray[3] = "/graphics/ffxivads/ffxiv_ad_sch.jpg";
+
 
 // Script for navigation bar + title + footer
 // [PART 1] Establish variables - writing goes in here!
@@ -38,7 +45,10 @@ let title = `
 
 let footer = `
     lunarlily was last updated on <span id="lastupdate"></span>    
-    <br><br>Layout made by <a href='http://itinerae.neocities.org'>Itinerae (edited by me!)</a>
+    <br><br>
+    <span id="ffxivad"></span>
+    <br><br>
+    Layout made by <a href='http://itinerae.neocities.org'>Itinerae (edited by me!)</a>
     <br>Journal built with <a href='https://codeberg.org/cdvr/Zonelots'>Zonelots</a> (based on <a href='https://zonelets.net/'>Zonelets</a>)
 `;
 
@@ -53,6 +63,11 @@ if (document.getElementById("bannertextorimage")) {
 
 if (document.getElementById("footertext")) {
     document.getElementById("footertext").innerHTML = footer;
+}
+
+if (document.getElementById("ffxivad")) {
+    var number = Math.floor(Math.random()*imageArray.length);
+    document.getElementById("ffxivad").innerHTML = '<a href="https://freetrial.finalfantasyxiv.com/na/"><img src="' + imageArray[number] + '" alt="x" style="width:400px; border-radius:10px;"/></a>'
 }
 
 

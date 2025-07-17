@@ -4,17 +4,17 @@
 // Left side boxes
 let featurebox = `
 <div class="small-title"><img src="/graphics/bnew.gif" alt="x" style="margin-left:2px;"> What's new?</div>
-<strong>3 July 2025:</strong> jim she's alive (first deployment!)
+<strong>16 July 2025:</strong> added some <a href="https://bootlegdomain.neocities.org/home" target="_blank">goofy ads</a> for world famous MMORPG Final Fantasy XIV, updated about page with a link to my new Anilist account
 `;
 
 let currentlybox = `
 <div class="small-title"><img src="/graphics/bflower.png" alt="x" style="margin-left:2px;"> currently...</div>
 <center><iframe src="https://free.timeanddate.com/clock/i9ykbgcf/n197/fn8/fs12/fc333/ftb/pl0/pr0/pb0/ts1" frameborder="0" width="101" height="14"></iframe></center>
-<strong>eating</strong> dinner
-<br><strong>playing</strong> mind games with vscode
-<br><strong>watching</strong> my cat take a bath next to my desk
+<strong>eating</strong> grapes :]
+<br><strong>playing</strong> Bravely Default (AGAIN)
+<br><strong>watching</strong> <a href="https://www.youtube.com/watch?v=Bdj14_jdumI" target="_blank">be your own algorithm</a>, by pagemelt
 <br><strong>reading</strong> Secrets of the Silent Witch (Isora Matsuri)
-<br><strong>listening</strong> <span id="song"></span>
+<br><strong>listening to</strong> <span id="song"></span>
 <br><strong>thinking about</strong> phainon of aedes elysiae
 <br><strong>wishing for</strong> more rain...
 `;
