@@ -4,19 +4,19 @@
 // Left side boxes
 let featurebox = `
 <div class="small-title"><img src="/graphics/bnew.gif" alt="x" style="margin-left:2px;"> What's new?</div>
-<strong>16 July 2025:</strong> added some <a href="https://bootlegdomain.neocities.org/home" target="_blank">goofy ads</a> for world famous MMORPG Final Fantasy XIV, updated about page with a link to my new Anilist account
+<strong>5 September 2025:</strong> first journal post (hi, I'm not dead!)
 `;
 
 let currentlybox = `
 <div class="small-title"><img src="/graphics/bflower.png" alt="x" style="margin-left:2px;"> currently...</div>
 <center><iframe src="https://free.timeanddate.com/clock/i9ykbgcf/n197/fn8/fs12/fc333/ftb/pl0/pr0/pb0/ts1" frameborder="0" width="101" height="14"></iframe></center>
-<strong>eating</strong> grapes :]
-<br><strong>playing</strong> Bravely Default (AGAIN)
-<br><strong>watching</strong> <a href="https://www.youtube.com/watch?v=Bdj14_jdumI" target="_blank">be your own algorithm</a>, by pagemelt
-<br><strong>reading</strong> Secrets of the Silent Witch (Isora Matsuri)
+<strong>eating</strong> a chocolate chip cookie with perhaps the most chocolate chips of any cookie in history?
+<br><strong>playing</strong> Story of Seasons Grand Bazaar (IT'S SO FUN)
+<br><strong>watching</strong> my partner play overwatch
+<br><strong>reading</strong> Secrets of the Silent Witch (Isora Matsuri) (still) (sorry)
 <br><strong>listening to</strong> <span id="song"></span>
-<br><strong>thinking about</strong> phainon of aedes elysiae
-<br><strong>wishing for</strong> more rain...
+<br><strong>thinking about</strong> phainon of aedes elysiae (still) (not sorry)
+<br><strong>wishing for</strong> the energy to clean my office
 `;
 
 let linksbox = `

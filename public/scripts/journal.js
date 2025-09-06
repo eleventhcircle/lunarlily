@@ -40,11 +40,11 @@ const posts = [
 	"filename": `YYYY-MM-DD-Post-Template`,
 	"tags": [`example post`, `test tag`],
 },*/
-/*{
+{
 	"title": `Despite everything, it's still a website`,
-	"filename": `2025-07-17-Despite-everything`,
+	"filename": `2025-09-05-Despite-everything`,
 	"tags": [`2025`, `yapping`],
-}*/
+}
 ];
 
 
