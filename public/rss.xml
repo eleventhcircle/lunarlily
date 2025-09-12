@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>lunarlily updates</title>
+  <description>Update feed for the fourth coolest website on the moon</description>
+  <link>https://lunarlily.neocities.org</link>
+  <lastBuildDate>
+    Thu, 11 Sep 2025 21:20:00 MST
+  </lastBuildDate>
+  <ttl>60</ttl>
+  <language>en-us</language>
+
+  <item>
+    <title>An RSS feed is born!</title>
+    <link>https://lunarlily.neocities.org/credits</link>
+    <pubDate>Thu, 11 Sep 2025 21:20:00 MST</pubDate>
+    <description>If I set everything up correctly, there should now be a link on the right sidebar to this RSS feed! Hello! I also updated a few things on the credits page, including links to helpful RSS guides and some new VSCode extensions I started using recently.</description>
+  </item>
+</channel>
+</rss>

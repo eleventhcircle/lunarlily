@@ -69,7 +69,7 @@ let linkbackbox = `
 
 let rssbox = `
 <div class="small-title"><img src="/graphics/bflower.png" alt="x" style="margin-left:2px;"> RSS feed</div>
-Coming soon!
+Want to keep up with future updates? <a href="https://lunarlily.neocities.org/rss.xml">Click to subscribe to my RSS feed! <img src="/graphics/rss.png" style="width: 15px; vertical-align: top;" alt="Orange RSS icon"></a>
 `;
 
 // [PART 2] Inserting into page
