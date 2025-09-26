@@ -4,16 +4,16 @@
 // Left side boxes
 let featurebox = `
 <div class="small-title"><img src="/graphics/bnew.gif" alt="x" style="margin-left:2px;"> What's new?</div>
-<strong>5 September 2025:</strong> first journal post (hi, I'm not dead!)
+<strong>25 September 2025:</strong> new TOTW, reorganized the archive to be reverse chronological. a few housekeeping things too
 `;
 
 let currentlybox = `
 <div class="small-title"><img src="/graphics/bflower.png" alt="x" style="margin-left:2px;"> currently...</div>
 <center><iframe src="https://free.timeanddate.com/clock/i9ykbgcf/n197/fn8/fs12/fc333/ftb/pl0/pr0/pb0/ts1" frameborder="0" width="101" height="14"></iframe></center>
-<strong>eating</strong> a chocolate chip cookie with perhaps the most chocolate chips of any cookie in history?
-<br><strong>playing</strong> Story of Seasons Grand Bazaar (IT'S SO FUN)
-<br><strong>watching</strong> my partner play overwatch
-<br><strong>reading</strong> Secrets of the Silent Witch (Isora Matsuri) (still) (sorry)
+<strong>eating</strong> so good. cyrene leaks
+<br><strong>playing</strong> Story of Seasons: Grand Bazaar (IT'S SO FUN)
+<br><strong>watching</strong> <a href="https://www.youtube.com/watch?v=tyU5Xkk6TuE">The War on Science, by Shaun</a>
+<br><strong>reading</strong> Paradise Logic (Sophie Kemp)
 <br><strong>listening to</strong> <span id="song"></span>
 <br><strong>thinking about</strong> phainon of aedes elysiae (still) (not sorry)
 <br><strong>wishing for</strong> the energy to clean my office
@@ -64,7 +64,7 @@ let linkbackbox = `
     <textarea style="width: 165px; height: 40px;"><a href="https://lunarlily.neocities.org/" target="_blank"><img src="https://github.com/eleventhcircle/lunarlily/blob/public/graphics/lunarlily88x31.gif" alt="lunarlily">
     </textarea>
 </center>
-<p>If you'd like to be neighbors, leave a message in the guestbook :]</p>
+<p><strong>Hotlinking OK!</strong> If you'd like to be neighbors, leave a message in the guestbook :]</p>
 `;
 
 let rssbox = `
