@@ -4,15 +4,15 @@
 // Left side boxes
 let featurebox = `
 <div class="small-title"><img src="/graphics/bnew.gif" alt="x" style="margin-left:2px;"> What's new?</div>
-<strong>9 October 2025:</strong> new TOTW! working on several bigger things behind the scenes, life got busy for a bit so I have nothing to show yet but they're coming
+<strong>16 October 2025:</strong> New journal entry yapping about library books + new TOTW
 `;
 
 let currentlybox = `
 <div class="small-title"><img src="/graphics/bflower.png" alt="x" style="margin-left:2px;"> currently...</div>
 <center><iframe src="https://free.timeanddate.com/clock/i9ykbgcf/n197/fn8/fs12/fc333/ftb/pl0/pr0/pb0/ts1" frameborder="0" width="101" height="14"></iframe></center>
-<strong>eating</strong> boba fished from the bottom of my cup
+<strong>eating</strong> nothing... tummy hurts
 <br><strong>playing</strong> Story of Seasons: Grand Bazaar
-<br><strong>watching</strong> my bf on a solo run in Peak (chat I think he's gonna make it)
+<br><strong>watching</strong> my bf on a solo run in Peak (chat he didn't make it)
 <br><strong>reading</strong> Paradise Logic (Sophie Kemp)
 <br><strong>listening to</strong> <span id="song"></span>
 <br><strong>thinking about</strong> new cookie recipes

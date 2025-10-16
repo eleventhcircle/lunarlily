@@ -44,6 +44,11 @@ const posts = [
 	"title": `Despite everything, it's still a website`,
 	"filename": `2025-09-05-Despite-everything`,
 	"tags": [`2025`, `yapping`],
+},
+{
+	"title": `Library time, Oct 2025`,
+	"filename": `2025-10-16-Library-time`,
+	"tags": [`2025`, `book talk`],
 }
 ];
 
