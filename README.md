@@ -5,6 +5,7 @@ I can't promise my code is completely neat and tidy, but feel free to take a loo
 
 ## Updates
 
+**23 November 2025:** New TOTW, the exciting (and very belated!) addition of two buttons to the Neighbors section, and a little notice about ongoing site construction  
 **16 October 2025:** New journal entry yapping about library books + new TOTW  
 **9 October 2025:** New TOTW! Working on several bigger things behind the scenes, life got busy for a bit so I have nothing to show yet but they're coming  
 **25 September 2025:** New TOTW, reorganized the archive to be in reverse chronological order (newest to oldest). a few housekeeping things too  

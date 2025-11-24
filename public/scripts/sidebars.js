@@ -4,19 +4,19 @@
 // Left side boxes
 let featurebox = `
 <div class="small-title"><img src="/graphics/bnew.gif" alt="x" style="margin-left:2px;"> What's new?</div>
-<strong>16 October 2025:</strong> New journal entry yapping about library books + new TOTW
+<strong>23 November 2025:</strong> New TOTW, the exciting (and very belated!) first addition to the Neighbors section, and a little notice about ongoing site construction
 `;
 
 let currentlybox = `
 <div class="small-title"><img src="/graphics/bflower.png" alt="x" style="margin-left:2px;"> currently...</div>
 <center><iframe src="https://free.timeanddate.com/clock/i9ykbgcf/n197/fn8/fs12/fc333/ftb/pl0/pr0/pb0/ts1" frameborder="0" width="101" height="14"></iframe></center>
-<strong>eating</strong> nothing... tummy hurts
-<br><strong>playing</strong> Story of Seasons: Grand Bazaar
-<br><strong>watching</strong> my bf on a solo run in Peak (chat he didn't make it)
-<br><strong>reading</strong> Paradise Logic (Sophie Kemp)
+<strong>eating</strong> mashed potato :]
+<br><strong>playing</strong> Pokemon Legends Z-A
+<br><strong>watching</strong> <a href="https://www.youtube.com/watch?v=NyIgV84fudM" target="_blank">new Defunctland video</a>
+<br><strong>reading</strong> so much fic lately holy moly
 <br><strong>listening to</strong> <span id="song"></span>
-<br><strong>thinking about</strong> new cookie recipes
-<br><strong>wishing for</strong> a better understanding of APIs
+<br><strong>thinking about</strong> dusting my figure case out
+<br><strong>wishing for</strong> boba
 `;
 
 let linksbox = `
