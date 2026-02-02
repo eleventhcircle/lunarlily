@@ -1,0 +1,101 @@
+---
+layout: page_base.njk
+title: "sitemap"
+---
+
+<div class="left">
+    <!-- what's new + RSS feed -->
+    <section class="red">
+        {% include "partials/latestupdates.njk" %}
+    </section>
+
+    <!-- statuscafe -->
+    <section class="blue">
+        {% include "partials/statuscafe.njk" %}
+    </section>
+
+    <!-- currently -->
+    <section class="green">
+        {% include "partials/currently.njk" %}
+    </section>
+
+    <!-- link back -->
+    <section class="yellow">
+        {% include "partials/linkback.njk" %}
+    </section>
+</div>
+
+<div class="right">
+    <section class="orange">
+        <h2>Are you lost? Take this starchart!</h2>
+    </section>
+    <section class="purple">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li>Personal - pages primarily about or related to me</li>
+                <ul>
+                    <li>
+                        <a href="/about">About me</a>
+                        <p>An introduction to lunarlily's webmaster <small>(dat me)</small></p>
+                    </li>
+                    <li>
+                        <del>Now</del>
+                        <p>Inspired by <a href="https://nownownow.com/about">nownownow,</a>a more in-depth look at what I've been up to recently</p>
+                    </li>
+                    <li>
+                        <a href="/journal">Journal</a>
+                        <p>Home to an ever-increasing number of yaps. The journal landing page has the index of entries!</p>
+                    </li>
+                </ul>
+            <li>Sitely - pages primarily about or related to lunarlily</li>
+                <ul>
+                    <li>
+                        <a href="/sitemap">Sitemap</a>
+                        <p>You are here!</p>
+                    </li>
+                    <li>
+                        <a href="/guestbook">Guestbook</a>
+                        <p>Drop any messages or miscellaneous thoughts in here :]</p>
+                    </li>
+                    <li>
+                        <a href="/changelog">Changelog</a>
+                        <p>Full record of past site changes</p>
+                    </li>
+                    <li>
+                        <a href="/credits">Credits</a>
+                        <p>Breakdown of just about everything that went into the making of lunarlily</p>
+                    </li>
+                    <li>
+                        <del>To-do</del>
+                        <p>Eternally unfinished to-do list of things I'd like to do with the site...</p>
+                    </li>
+                </ul>
+            <li>Fun things - pages for fun things! (A bit of a catch-all category lol)</li>
+                <ul>
+                    <li>
+                        <a href="/totw-archive">Thing of the Week archive</a>
+                        <p>Previously featured things of the week from the homepage</p>
+                    </li>
+                    <li>
+                        <del>Collections</del>
+                        <p>A collection of my various... collections</p>
+                    </li>
+                    <li>
+                        <del>Toybox</del>
+                        <p>Play touys with me :]</p>
+                    </li>
+                    <li>
+                        <del>Craft room</del>
+                        <p>A museum of arts n crafts made by yours truly</p>
+                    </li>
+                </ul>
+            <li><del>Shrines</del> - pages dedicated to showcasing Things I Like</li>
+            <li><del>OCs</del> - pages about my little guys. I'm really normal about them prommy</li>
+            <li>
+                <a href="/links">Links</a> - Sites in orbit around lunarlily, for further exploring!
+            </li>
+            <li><a href="https://lunarlily.neocities.org/not_found.html">404 page</a></li>
+        </ul>
+        <p class="subtletext">Anything <del>crossed out</del> doesn't exist yet, but is coming soon!</p>
+    </section>
+</div>

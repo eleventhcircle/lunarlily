@@ -1,0 +1,31 @@
+---
+layout: page_base.njk
+title: "Thing of the Week archive"
+---
+
+<div class="left">
+    <section class="indigo">
+        <h3>The ghosts of the things of weeks past</h3>
+        <p>Wanna see some previous things of the week? You're in the right place! Entries are posted in reverse chronological order (a.k.a. most recent first). Sometime soon I need to figure out pagination so this doesn't become terrible to scroll through, but for now it's probably alright.</p>
+    </section>
+
+    <section class="indigo">
+        <h3>But wait, what's a thing of the week?</h3>
+        <p>
+            Great question! A thing of the week is some Thing I'm particularly fixated on during any given week - there's really no restriction on what the Thing can be. I thought it would be a fun way to document how my interests fluctuate over time and also encourage me to regularly check/update the site when I first launched it.
+        </p>
+        <p class="subtletext">
+            *Note: Contrary to expectations set by the name, the thing of the week is usually not updated every single week but rather when I remember or have the time/energy to. Life be happening sometimes, yknow?
+        </p>
+    </section>
+</div>
+
+<div class="right">
+    {% for entry in totwarchive %}
+    <section class="{{ entry.color }}">
+        <h3 class="titlemargin">Week of {{ entry.week }}: {{ entry.thing }}</h3>
+        <p class="subtletext pmargin">Posted on {{ entry.posted }}</p>
+        {{ entry.content }}
+    </section>
+    {% endfor %}
+</div>

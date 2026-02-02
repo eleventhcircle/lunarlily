@@ -1,0 +1,29 @@
+        <h3>Currently...</h3>
+        <ul class="listnopad">
+            <li><strong>eating</strong> leftover pizza</li>
+            <li><strong>playing</strong> Final Fantasy Tactics: The Ivalice Chronicles (<a href="https://bsky.app/profile/papapishu.bsky.social/post/3lzjymwygq22z" target="_blank">the best game ever made btw</a>)</li>
+            <li><strong>watching</strong> my sanity spiral</li>
+            <li><strong>reading</strong> Babel, vol.II: Condemned by the Magic Kingdom (Kuji Furumiya)</li>
+            <li><strong>listening to</strong> <span id="song"></span></li>
+            <li><strong>thinking about</strong> my ocs kissing</li>
+            <li><strong>wishing for</strong> boba...</li>
+        </ul>
+
+<script>
+// last.fm last played - credit to biancarosa!
+// code modified slightly from example 1, which can be found here:
+// https://github.com/biancarosa/lastfm-last-played/blob/main/examples/example1.html
+
+{
+    let lastfmuser = "eleventhcircle";
+    let lastfmurl = "https://lastfm-last-played.biancarosa.com.br/" + lastfmuser + "/latest-song";
+    let lastfmsong = document.querySelector("#song");
+
+    fetch(lastfmurl)
+    .then(function (response) {
+    return response.json()
+    }).then(function (json) {
+    lastfmsong.innerHTML = "<a href='" + json["track"]["url"] + "'> " + json["track"]["name"] + " - " + json["track"]["artist"]["#text"] + "</a>";
+    });
+}
+</script>

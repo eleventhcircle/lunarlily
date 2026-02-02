@@ -1,0 +1,31 @@
+---
+layout: page_base.njk
+title: "changelog"
+---
+
+<div class="left">
+    <section class="indigo">
+        <h3>Site maintenance logs</h3>
+        <p>Here lives a record of all changes made to lunarlily... ever. Entries are shown in reverse chronological order.</p>
+        <p>At some point I'm going to set up pagination, since this will get incredibly unwieldy to navigate otherwise.</p>
+    </section>
+
+    <section class="indigo">
+        <h3>Stay connected!</h3>
+        <p>
+            If you want to keep up with future updates, you can add <a href="http://localhost:8080/feed.xml">my RSS feed</a> to any feed reader and get notified when the site updates.
+        </p>
+        <p class="subtletext">
+            Thanks for being interested enough in my goofy little site to do that btw... it's an honor :]
+        </p>
+    </section>
+</div>
+
+<div class="right">
+    {%- for log in changelog -%}
+    <section class="{{ log.color }}">
+        <h3>{{ log.caldate }}: {{ log.title }}</h3>
+        {{ log.unescaped }}
+    </section>
+    {%- endfor -%}
+</div>

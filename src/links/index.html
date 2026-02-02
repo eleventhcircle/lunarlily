@@ -1,0 +1,180 @@
+---
+layout: page_base.njk
+title: "links"
+---
+
+<div class="left">
+    <section class="purple">
+        <h3>Thanks for visiting!</h3>
+        <p>
+            I appreciate you spending some time wandering around my little piece of the moon, and I sincerely hope you enjoyed your stay! If you want to continue on your adventure, here's a bunch of other cool places around the cosmos for you to check out.
+        </p>
+    </section>
+
+    <section class="blue">
+        {% include "partials/linkback.njk" %}
+    </section>
+</div>
+
+<div class="right">
+    <section class="indigo">
+        <h2>Let's get connected and explore the cosmos together!</h2>
+    </section>
+
+    <section id="neighbors" class="yellow noexternal">
+        <h3>Around the (indie) web</h3>
+        <p>
+            Connections to others orbiting nearby in this little galaxy of personal sites! All buttons are listed in no particular order.
+        </p>
+
+        <h4 class="titlemargin">Friends</h4>
+        <p class="pmargin subtletext">Manifesting everyone I love to make their own websites... please...</p>
+        {% for button in buttonlist %} {% if button.type == "friend" %}
+        <a href="{{ button.link }}" class="nodeco">
+            <img src="/graphics/buttons/{{ button.name }}.{{ button.fileext }}" alt="{{ button.name }}">
+        </a>
+        {% endif %} {% endfor %}
+        
+        <h4 class="titlemargin">Neighbors</h4>
+        <p class="pmargin subtletext">People I've traded buttons with, and also people who I just think are pretty cool!</p>
+        {% for button in buttonlist %} {% if button.type == "neighbor" %}
+        <a href="{{ button.link }}" class="nodeco">
+            <img src="/graphics/buttons/{{ button.name }}.{{ button.fileext }}" alt="{{ button.name }}">
+        </a>
+        {% endif %} {% endfor %}
+        
+        <h4 class="titlemargin">Inspiration</h4>
+        <p class="pmargin subtletext">Essentially, sites that make me think "wow that's awesome" for any number of reasons and then itch to work on my own lol</p>
+        {% for button in buttonlist %} {% if button.type == "inspiration" %}
+        <a href="{{ button.link }}" class="nodeco">
+            <img src="/graphics/buttons/{{ button.name }}.{{ button.fileext }}" alt="{{ button.name }}">
+        </a>
+        {% endif %} {% endfor %}
+    </section>
+
+    <section class="orange">
+        <h3>Helpful resources</h3>
+        <p>
+            Various resources, tutorials, guides, and Cool Things that I've collected while cruising around amongst the stars, loosely grouped into categories for easier browsing.
+        </p>
+    </section>
+
+    <div class="right-inside">
+        <section class="green">
+            <h4>Web dev & tools</h4>
+
+            <ul class="listnopad">
+                <li>
+                    <a href="https://codeberg.org/cdvr/Zonelots">Zonelots</a>
+                    <p>A blogging/journal framework based on the popular <a href="https://zonelets.net/">Zonelets</a> that adds additional functionality like tags. Makes use of Javascript to organize and index entries.</p>
+                </li>
+                <li>
+                    <a href="https://filegarden.com/">File Garden</a>
+                    <p>A free file hosting service - very helpful for managing the size of your site as it lets you offload images (generally the biggest files)</p>
+                </li>
+                <li>
+                    <a href="https://jsonlint.com/">JSONLint</a>
+                    <p>A free format validator specifically for JSON. Invaluable for double-checking escaped characters if you happen to store HTML segments inside of JSON objects (like me!)</p>
+                </li>
+                <li>
+                    <a href="https://validator.w3.org/feed/">W3C Feed Validator</a>
+                    <p>Free tool to check for syntax errors in RSS and Atom feeds. Genuine lifesaver, if you bookmark nothing else please bookmark this.</p>
+                </li>
+                <li>
+                    <a href="https://fonts.google.com/">Google Fonts</a>
+                    <p>Massive resource for open-source and free-to-use fonts, you can either download + self-host font files or hook them into your site's CSS via their API.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="red">
+            <h4>Graphics & design</h4>
+            <ul class="listnopad">
+                <li>
+                    <a href="https://www.photopea.com/">Photopea</a>
+                    <p>An browser-based image editor, a la Photoshop</p>
+                </li>
+                <li>
+                    <a href="https://ezgif.com/">ezgif</a>
+                    <p>gif maker/editor</p>
+                </li>
+                <li>
+                    <a href="https://www.resizepixel.com/">resizepixel</a>
+                    <p>A different online image editor than Photopea, simpler UI with less editing options. Good for quick image crops and whatnot!</p>
+                </li>
+                <li>
+                    <a href="https://ditherit.com/">ditherit</a>
+                    <p>Image dithering tool</p>
+                </li>
+                <li>
+                    <a href="https://sanzo-wada.dmbk.io/">Wada Sanzo's Dictionary of Color Combinations</a>
+                    <p>An online collection of curated color palettes and studies by <a href="https://en.wikipedia.org/wiki/Sanzo_Wada">Wada Sanzo,</a> a renowned Japanese artist and costume designer</p>
+                </li>
+                <li>
+                    <a href="https://coolors.co/?home">coolers.co</a>
+                    <p>Useful color palette tool, able to colorpick palette from images which I find particularly useful</p>
+                </li>
+                <li>
+                    <a href="https://gifcities.org/">GifCities</a>
+                    <p>Archive of graphic media salvaged from Geocities (really cool project from the Internet Archive!)</p>
+                </li>
+                <li>
+                    <a href="https://dinoosauro.github.io/image-converter/">image-converter</a>
+                    <p>A useful tool for easily converting images between formats, i.e. webp to png</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="purple">
+            <h4>Tutorials</h4>
+            <ul class="listnopad">
+                <li>
+                    <a href="https://flexboxfroggy.com/">Flexbox Froggy</a>
+                    <p>Interactive tutorial teaching the fundamentals of CSS flexbox. I don't want to oversell it but these little frogs rocked my world while I was working on my site overhaul.</p>
+                </li>
+                <li>
+                    <a href="https://cssgridgarden.com/">CSS Grid Garden</a>
+                    <p>Same as above, an interative tutorial but for CSS grid this time.</p>
+                </li>
+                <li>
+                    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flexbox reference sheet</a>
+                    <p>Quick visual reference for flexbox properties and what they do. Handy to have open while you're working when you're like <em>"wait what's the difference between align-items and align-content again"</em></p>
+                </li>
+                <li>
+                    <a href="https://internetingishard.netlify.app/">Interneting is Hard</a>
+                    <p>Extensive guide for learning HTML and CSS, structured into lessons for those who learn best with this format. I haven't gone through all of it myself but the lessons I've used to self-teach were clear and easy to follow.</p>
+                </li>
+                <li>
+                    <a href="https://dannarchy.com/tut/tut_002">Dannarchy's Native Neocities Hit-Counter</a>
+                    <p>I used this on the first version of lunarlily to display a visitor count and also when the site was last updated. Only works for sites hosted on Neocities, of course.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="blue">
+            <h4>Miscellaneous</h4>
+            <ul class="listnopad">
+                <li>
+                    <a href="https://marginalia-search.com/">Marginalia Search</a>
+                    <p>An open-source search engine focused specifically on indexing non-commercial websites, it's a very fun way to explore around the indie web!</p>
+                </li>
+                <li>
+                    <a href="https://canine.tools/">canine.tools</a>
+                    <p>A free collection of open-source tools and self-hosted frontends. I use their <a href="https://cobalt.canine.tools/">cobalt</a> instance a lot.</p>
+                </li>
+                <li>
+                    <a href="https://discourse.32bit.cafe/">32-bit Cafe</a>
+                    <p>Forum full of helpful people and even more helpful resources :]</p>
+                </li>
+                <li>
+                    <a href="https://fujocoded.com/projects">Fujocoded</a>
+                    <p>A cool fandom-focused collective that manages various web projects. I make use of their AO3.js library!</p>
+                </li>
+                <li>
+                    <a href="https://www.searchenginemap.com/">Search Engine Map</a>
+                    <p>A visual index of various search engines that shows where they source their data from. If you want to move away from Google, this can help you find an alternative.</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>

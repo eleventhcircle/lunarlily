@@ -1,0 +1,35 @@
+---
+layout: page_base.njk
+title: "guestbook"
+---
+
+<div class="left">
+    <!-- what's new + RSS feed -->
+    <section class="red">
+        {% include "partials/latestupdates.njk" %}
+    </section>
+
+    <!-- statuscafe -->
+    <section class="blue">
+        {% include "partials/statuscafe.njk" %}
+    </section>
+
+    <!-- currently -->
+    <section class="green">
+        {% include "partials/currently.njk" %}
+    </section>
+
+    <!-- link back -->
+    <section class="yellow">
+        {% include "partials/linkback.njk" %}
+    </section>
+</div>
+
+<div class="right">
+    <section class="purple">
+        <h2>Record your visit in the captain's log!</h2>
+    </section>
+    <section class="orange">
+        <iframe class="guestbook" src="https://lunarlily.atabook.org/"></iframe>
+    </section>
+</div>

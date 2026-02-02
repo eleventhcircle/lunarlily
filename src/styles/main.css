@@ -1,0 +1,264 @@
+/* styling for most pages */
+
+body {
+    background-image: url(/graphics/spacebg.png);
+    margin: 0 1em;
+}
+
+#wrapper {
+    max-width: 1080px;
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 10px;
+}
+
+
+/* header */
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: "Homemade Apple";
+    text-align: center;
+    font-size: 3em;
+    line-height: normal;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+/* navigation bar */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 0.5em;
+}
+
+#home, #links, .dropdown button {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.2em;
+    line-height: 150%;
+    text-decoration: none;
+    color: var(--indigo);
+    background-color: var(--white);
+    padding: 4px 10px;
+    border: solid 4px var(--lighterindigo);
+    border-radius: 8px;
+    &:hover {
+        background-color: var(--white);
+    }
+}
+
+/* by default, dropdown lists shouldn't show */
+.dropdown-list {
+    display: none;
+}
+
+/* when hovering over one of the buttons, show the corresponding dropdown */
+.dropdown:hover .dropdown-list {
+    display: block;
+    position: absolute;
+    padding: 5px 0;
+    z-index: 1;
+}
+
+.dropdown-list a {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: var(--indigo);
+    background-color: var(--white);
+    padding: 5px 10px;
+}
+
+.dropdown-list a:hover {
+    background-color: var(--lighterpurple);
+}
+
+
+/* main content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.left, .right {
+    width: 100%;
+}
+
+.right-inside {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+section, article {
+    background-color: var(--white);
+    border: solid 6px;
+    border-radius: 15px;
+    margin: 1em 0;
+    padding: 0 1em;
+}
+
+article h2 {
+    margin-bottom: 0.1em;
+}
+
+/* for header elements, adjusts bottom margin to allow closer subtitle */
+.titlemargin {
+    margin-bottom: 0.2em;
+}
+
+/* for p elements, adjusts top margin to allow for closer spacing */
+.pmargin {
+    margin-top: 0px;
+}
+
+/* for lists (ol or ul), adjusts the left-side padding so the bullet points aren't shifted over as far */
+.listnopad {
+    padding-left: 20px;
+}
+
+
+.right-inside section {
+    padding: 0 1em;
+    margin: 0.5em 0;
+}
+
+ul {
+    line-height: 150%;
+}
+
+/* for list items (li), if there is a p element inside then adjust the top margin and style like .subtletext */
+li p {
+    margin-top: 0px;
+    font-size: 0.9em;
+    line-height: 120%;
+}
+
+
+/* section border colors + matching arrows for list items */
+.red {
+    border-color: var(--lightred);
+}
+.red ul li {
+    list-style-image: url("/graphics/pixels/rightarrow-red.gif");
+}
+
+.orange {
+    border-color: var(--orange);
+}
+.orange ul li {
+    list-style-image: url("/graphics/pixels/rightarrow-orange.gif");
+}
+
+.yellow {
+    border-color: var(--lightyellow);
+}
+.yellow ul li {
+    list-style-image: url("/graphics/pixels/rightarrow-yellow.gif");
+}
+
+.green {
+    border-color: var(--lightgreen);
+}
+.green ul li {
+    list-style-image: url("/graphics/pixels/rightarrow-green.gif");
+}
+
+.blue {
+    border-color: var(--lightblue);
+}
+.blue ul li {
+    list-style-image: url("/graphics/pixels/rightarrow-blue.gif");
+}
+
+.indigo {
+    border-color: var(--lighterindigo);
+}
+.indigo ul li {
+    list-style-image: url("/graphics/pixels/rightarrow-indigo.gif");
+}
+
+.purple {
+    border-color: var(--lightpurple);
+}
+.purple ul li {
+    list-style-image: url("/graphics/pixels/rightarrow-purple.gif");
+}
+
+
+/* status.cafe widget styling */
+#statuscafe {
+    margin-bottom: 1.1em;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+
+
+/* atabook iframe styling */
+.guestbook {
+    width: 100%;
+    height: 1278px;
+    border: none;
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    background-color: var(--white);
+    border: solid 6px;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+
+/* neighbor buttons styling to ensure they all display as 88x31 */
+#neighbors img {
+    max-width: 88px;
+    max-height: 31px;
+}
+
+
+/* media query - when viewing from a screen that is at least 800px wide (covers most potential monitor sizes) */
+@media only screen and (min-width: 800px) {
+    nav {
+        justify-content: space-evenly;
+    }
+
+    main {
+        justify-content: space-between;
+    }
+
+    .right-inside {
+        justify-content: space-between;
+    }    
+
+    .left {
+        width: calc(30% - 1em);
+    }
+
+    .right {
+        width: calc(70% - 1em);
+    }
+
+    .right-inside section {
+        width: calc(50% - 1em);
+    }
+}

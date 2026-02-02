@@ -1,0 +1,112 @@
+---
+layout: page_base.njk
+title: "site credits"
+---
+
+<div class="left">
+    <section class="indigo">
+        <h3>Moonbase building blocks</h3>
+        <p>
+            Here lives a list of credits and sources for just about everything you see on lunarlily, especially if their sources are not readily apparent! I suppose you could call this a <a href="https://indieweb.org/colophon">colophon</a> of sorts?
+        </p>
+        <p>
+            If you have a question about how I did something or where to find any specific thing(s), drop it in the guestbook or send me an email - I'm happy to chat!
+        </p>
+    </section>
+
+    <section class="yellow">
+        {% include "partials/linkback.njk" %}
+    </section>
+</div>
+
+<div class="right">
+    <section class="green">
+        <h3>Development tools</h3>
+        <p>
+            I use <a href="https://code.visualstudio.com/">VSCode</a> as my primary text editor. It's open-source but if you want to use it without any of Microsoft's product customization and telemetry that comes with downloading from their site, consider downloading from <a href="https://vscodium.com/">VSCodium</a> instead.
+        </p>
+        <p>
+            I recommend installing a couple extensions to make your code writing experience more comfortable, though they're by no means required. All can be found and installed by searching their names in the Extensions Marketplace within VSCode itself (accessed via the left sidebar).
+            <ul>
+                <li><a href="https://github.com/ritwickdey/vscode-live-server">Live Server</a>: Creates a local web server that live refreshes every time you save a file within your project.</li>
+                <li><a href="https://github.com/prettier/prettier-vscode">Prettier</a>: Formats your HTML, CSS, and Javascript + JSON for easier reading and editing <a href="https://www.roboleary.net/tools/2022/05/18/vscode-you-dont-need-a-formatting-extension-prettier-and-friends#settings-for-languages-with-builtin-formatters">(though you can do this without an extension too!)</a></li>
+                <li><a href="https://github.com/swindex/leet-html">leet-html</a>: Adds highlighting and IntelliSense for HTML templates written in Javascript. If you make heavy use of Javascript for things like headers/footers/sidebars/etc. on your site, I highly recommend this one!</li>
+                <li><a href="https://github.com/pranaygp/vscode-css-peek">CSS Peek</a>: Lets you quickly view info on your CSS classes and IDs by either peeking or directly opening the CSS fiie where it's defined. Helpful for quick edits and references.</li>
+            </ul>
+        </p>
+        <p>
+            My code is hosted on <a href="https://github.com/eleventhcircle/lunarlily">Github</a> and I use <a href="https://github.com/marketplace/actions/deploy-to-neocities">deploy-to-github</a> to automate deployments to Neocities, following <a href="https://deadrodrick.neocities.org/tutorial/deploy-to-neocities">this tutorial</a> to initially set up the Github action. I also referenced one of the final sections of <a href="https://alfredbaudisch.com/blog/migrating-from-wordpress-to-11ty/">Alfred Baudisch's writeup</a> on his migration to Eleventy to update my workflow file.
+        </p>
+    </section>
+
+    <section class="blue">
+        <h3>Widgets & code snippets</h3>
+        <p>Adopting Eleventy + some design changes let me take a lot of JS snippets off this list as I don't need to use them anymore! But I still make use of a couple in-line JS and an iframe for things like the guestbook and some sidebar features, plus a script that shows a random FFXIV ad on page refreshes.</p>
+        <ul>
+            <li><a href="https://status.cafe/">status.cafe</a> - fun little widget to show my most recent status post</li>
+            <li><a href="https://atabook.org/">atabook</a> - a free guestbook, made by the folks at nekoweb</li>
+            <li><a href="https://github.com/biancarosa/lastfm-last-played">last.fm last played widget, by biancarosa</a> - shows the most recent scrobbled song in the sidebar</li>
+        </ul>
+    </section>
+
+    <section class="orange">
+        <h3>Images & graphics</h3>
+        <ul>
+            <li>site button created by me, using pixels from <a href="https://emptysekai.tumblr.com/post/687363869348429824/">emptysekai</a> and <a href="https://engrampixel.tumblr.com/post/98999997460">engrampixel</a> on tumblr</li>
+            <li>favicon from <a href="https://engrampixel.tumblr.com/post/98999997460">engrampixel</a></li>
+            <li>star cursor from <a href="https://www.cursors-4u.com/cursor/2011/12/29/tiny-star.html">cursors-4u</a></li>
+            <li>starry background image from <a href="https://tenshiikisu.tumblr.com/post/79015021080/heres-my-collection-of-pixel-backgrounds-tile">tenshiikisu</a> on tumblr</li>
+            <li>carrot bunny on the guestbook from <a href="https://web.archive.org/web/20100612081035im_/http://neskaya.net/pixels/Bunny_Pixels_-_General/pixel%20(253).gif">neskaya (via web archive)</a></li>
+            <li>various tiny pixel icons found on <a href="https://www.asterism-m.com/item/">asterism</a> and <a href="https://foollovers.com/index.html">foollovers</a></li>
+            <li>FFXIV Free Trial "ads" created by <a href="https://bootlegdomain.neocities.org/home">bootlegdomain</a> <small>(yes I picked jobs to match my ocs) (what about it)</small></li>
+        </ul>
+    </section>
+
+    <section class="purple">
+        <h3>This one goes to Eleven(ty)</h3>
+        <p>
+            lunarlily v2.0 is now built using <a href="https://www.11ty.dev/">Eleventy (11ty)</a>, a static site generator (SSG). In essence, it makes web development more modular - instead of writing out every single page on your site manually (or by making use of reusable sections with Javascript), you can break things down into various smaller templates that you combine together, kind of like building with Lego blocks. Eleventy then generates (see? the G in SSG?) complete HTML pages that you can host on the web - like you're looking at right now! This process means that your site doesn't have to rely on things like Javascript running in-browser each time a page loads (for example, if you use a script to put the same header on every page), nor do you have to manually write (and then later update!) the same bits of code across many pages. It's pretty cool!!
+        </p>   
+        <p>
+            Switching to an SSG let me simplify a lot of the repetitive and fiddly parts of maintaining a personal site, and also let me move away from using client-side Javascript as much as possible out of concerns about accessibility. Actually switching over was a bit of a pain <del>(due entirely to my own incompetence and messy code from v1.0)</del> but hopefully it's smooth sailing from here :]
+        </p>
+        <p>
+            I heavily relied on several guides written by other Eleventy users to guide me through the process, as well as Eleventy's own documentation. I don't know if I could've completed the migration without their help - it was quite the learning process!
+        </p>
+        <ul>
+            <li>
+                <a href="https://whiona.weblog.lol/2023/10/my-neocities-workflow-using-eleventy-and-the-cli-to-speed-up-development">My Neocities workflow: using Eleventy and the CLI to speed up development</a>, from whiona.weblog.lol
+            </li>
+            <li>
+                <a href="https://flamedfury.com/guides/11ty-homepage-neocities/">Create A Static Site Using 11ty & Deploy to Neocities</a>, from Flamed Fury
+            </li>
+            <li>
+                <a href="https://alfredbaudisch.com/blog/migrating-from-wordpress-to-11ty/">Migrating from WordPress to 11ty (Eleventy)</a> from Alfred Baudisch
+            </li>
+            <li>
+                <a href="https://madbaker.com/blog/data-vs-collections-in-eleventy/">Data vs. Collections in Eleventy</a>, from Mad Baker
+            </li>
+            <li>
+                <a href="https://anhvn.com/posts/2024/my-eleventy-site-setup/">My Eleventy site setup</a>, from AHNVN
+            </li>
+            <li>
+                <a href="https://afellowu.neocities.org/blog/11ty-github-and-neocities">11ty, GitHub and Neocities</a>, from Mebi County
+            </li>
+            <li>
+                <a href="https://www.11ty.dev/docs/">Eleventy documentation</a>
+            </li>
+            <li>
+                <a href="https://mozilla.github.io/nunjucks/templating.html">Nunjucks documentation (templating language)</a>
+            </li>
+        </ul>
+        <p>
+            At some point I'd like to sit down and pen my own write-up about the experience of adopting Eleventy and all the headaches that came with the process. For now though, I'll say this: <strong>I don't necessarily recommend it for all webmasters, especially those brand new to web development!</strong> Just like with any other technology, it has its perks and drawbacks. Personally, I think trying to learn how to build a website by jumping right into an SSG would leave you with gaps in your knowledge of how it all comes together to make functioning pages - this will make troubleshooting problems a <em>nightmare</em> because you'll lack a solid foundation of understanding (it's a pain in the ass to figure out why something is wrong if you don't even know what it would look like when it's <em>correct</em>). I learned the basics of programming in college and it's something I do semi-regularly at my job, so I'm lucky to have already had experience with site building and SSGs from that. It's something to try your hand at after getting the fundamentals (HTML, CSS, site file structure, JS for dynamic content, etc.) under your belt first, in my opinion.
+        </p>
+        <p class="subtletext">
+            On the other hand, I can just as well make an argument that it's a <strong>great</strong> place to start for building a site! Say you're someone who wants to write the actual content of your site in Markdown (a very simple formatting language) and doesn't care to add too many bells and whistles to your site structure. An SSG would make it quite easy to maintain your files and remove a ton of the repetitive work that comes with building out individual web pages, all while not demanding extensive programming knowledge. Like I said - perks and drawbacks! It all depends on your usecase and scenario, and what level of technological know-how you feel comfortable with.
+        </p>
+        <p>
+            Due to the switch, it's a bit harder to snoop my code and understand <em>everything</em> going on under the hood - there's a whole bunch of important extra files and other context that you can't see in the final product hosted here! For that reason, I recommend going directly to <a href="https://github.com/eleventhcircle/lunarlily">the site repository on Github</a> if you want to go digging, especially if you're also trying to get set up on an SSG. You can see the templates and data collections that come together to build the completed pages, giving full context to the code that makes up the final HTML pages.
+        </p>
+    </section>
+</div>

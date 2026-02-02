@@ -1,0 +1,26 @@
+---
+layout: page_base.njk
+title: journal index
+---
+
+<div class="left">
+    <!-- tags list -->
+     <section class="green">
+        {% include "partials/journaltags.njk" %}
+     </section>
+</div>
+
+<div class="right">
+    <!-- journal entries index -->
+     <section class="blue">
+        <h2>Now entering: the yap zone</h2>
+        <ul>
+            {% for entry in journalentries %}
+            <li>
+                <a href="/journal/posts/{{ entry.url }}">{{ entry.title }}</a>
+                <p class="subtletext">{{ entry.date }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+     </section>
+</div>
