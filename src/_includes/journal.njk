@@ -1,0 +1,23 @@
+---
+layout: page_base.njk
+---
+
+<div class="left">
+    <!-- tags list -->
+     <section class="green">
+        {% include "partials/journaltags.njk" %}
+     </section>
+</div>
+
+<div class="right">
+    <article class="blue">
+        <h2>{{ title }}</h2>
+        <small><em>posted on {{ postdate }}</em></small>
+        {{ content | safe }}
+    </article>
+    <section class="yellow">
+        <p>
+            <a href="/journal"><- Return to journal index</a>
+        </p>
+    </section>
+</div>

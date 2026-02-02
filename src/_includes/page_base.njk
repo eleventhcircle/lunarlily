@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/graphics/favicon.gif">
+    <link rel="alternate" type="application/rss+xml" href="https://lunarlily.neocities.org/rss.xml" title="RSS">
+
+    <!--page info-->
+    <title>{{ title }}{% if title !== "blooming on the moon" %}{% endif %} | lunarlily</title>
+    <meta name="author" content="Luna">
+
+    <!--link embed info-->
+    <meta property="og:url" content="https://lunarlily.neocities.org">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="lunarlily">
+    <meta property="og:description" content="the fourth coolest website on the moon (allegedly)">
+    <!--<meta property="og:image" content="https://lunarlily.neocities.org/graphics/(insert here once added)"-->
+
+    <!--stylesheets-->
+    <link rel="stylesheet" href="/styles/default.css" type="text/css">
+    <link rel="stylesheet" href="/styles/main.css" type="text/css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="top">
+            {% include "partials/header.njk" %}
+        </header>
+        <main>
+            {{ content | safe }}
+        </main>
+        <footer class="indigo">
+            {% include "partials/footer.njk" %}
+        </footer>
+        <div id="ffxivad" class="noexternal"></div>
+    </div>
+
+    <script src="/scripts/ffxivbanners.js"></script>
+</body>
+
+</html>

@@ -1,119 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: page_base.njk
+title: "sitemap"
+---
 
-<head>
-  <title>blooming on the moon</title>
-  <link rel="icon" href="/graphics/favicon.gif" type="image/x-icon" />
-  <link rel="stylesheet" href="/styles/main-style.css" type="text/css">
-  <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="RSS">
+<div class="left">
+    <!-- what's new + RSS feed -->
+    <section class="red">
+        {% include "partials/latestupdates.njk" %}
+    </section>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-</head>
+    <!-- statuscafe -->
+    <section class="blue">
+        {% include "partials/statuscafe.njk" %}
+    </section>
 
+    <!-- currently -->
+    <section class="green">
+        {% include "partials/currently.njk" %}
+    </section>
 
+    <!-- link back -->
+    <section class="yellow">
+        {% include "partials/linkback.njk" %}
+    </section>
+</div>
 
-<body>
-
-  <div id="layout">
-    <div id="banner">
-      <div id="bannertextorimage"></div>
-    </div>
-
-
-
-    <div id="navigationbar">
-      <div id="navigation"></div>
-    </div>
-
-
-
-    <div id="left">
-      <div id="leftbox">
-        <div id="featurebox">
-        </div>
-      </div>
-
-      <div id="leftbox">
-        <div id="currentlybox"></div>
-      </div>
-
-      <div id="leftbox">
-        <div id="linksbox"></div>
-      </div>
-
-      <div id="leftbox">
-        <div id="todobox"></div>
-      </div>
-    </div>
-
-
-
-    <div id="content">
-      <div id="contentbox">
-        <div class="big-title"><img src="/graphics/yflower.png" alt="x" style="margin-left:3px; margin-bottom:1px;"> take this map, traveler!</div>
-        <p>I'm sure as the site grows, the sitemap will become more useful... but for now, you can basically get everywhere from the navigation bar lol</p>
+<div class="right">
+    <section class="orange">
+        <h2>Are you lost? Take this starchart!</h2>
+    </section>
+    <section class="purple">
         <ul>
-          <li><a href="/">home</a></li>
-          <li><a href="/about/">about</a> - about the webmaster (that's me!)</li>
-          <li><a href="/journal/">journal</a> - a space to ramble about all sorts of things
-            <ul>
-              <li>listing every entry here would make the sitemap incredibly unwieldy over time - please see the journal homepage for an index of all entries instead!</li>
-            </ul>
-          </li>
-          <li><a href="/guestbook/">guestbook</a> - leave a comment here if you'd like!</li>
-          <li><a href="/totw-archive/">thing of the week (totw) archive</a> - thing of the week features from the homepage</li>
-          <li>sitemap (you are here!)</li>
-          <li><a href="/credits/">credits</a> - a list of everything that went into the making of lunarlily</li>
-          <li><a href="/not_found.html">404 page</a> - oh no, are you lost?</li>
+            <li><a href="/">Home</a></li>
+            <li>Personal - pages primarily about or related to me</li>
+                <ul>
+                    <li>
+                        <a href="/about">About me</a>
+                        <p>An introduction to lunarlily's webmaster <small>(dat me)</small></p>
+                    </li>
+                    <li>
+                        <del>Now</del>
+                        <p>Inspired by <a href="https://nownownow.com/about">nownownow,</a>a more in-depth look at what I've been up to recently</p>
+                    </li>
+                    <li>
+                        <a href="/journal">Journal</a>
+                        <p>Home to an ever-increasing number of yaps. The journal landing page has the index of entries!</p>
+                    </li>
+                </ul>
+            <li>Sitely - pages primarily about or related to lunarlily</li>
+                <ul>
+                    <li>
+                        <a href="/sitemap">Sitemap</a>
+                        <p>You are here!</p>
+                    </li>
+                    <li>
+                        <a href="/guestbook">Guestbook</a>
+                        <p>Drop any messages or miscellaneous thoughts in here :]</p>
+                    </li>
+                    <li>
+                        <a href="/changelog">Changelog</a>
+                        <p>Full record of past site changes</p>
+                    </li>
+                    <li>
+                        <a href="/credits">Credits</a>
+                        <p>Breakdown of just about everything that went into the making of lunarlily</p>
+                    </li>
+                    <li>
+                        <del>To-do</del>
+                        <p>Eternally unfinished to-do list of things I'd like to do with the site...</p>
+                    </li>
+                </ul>
+            <li>Fun things - pages for fun things! (A bit of a catch-all category lol)</li>
+                <ul>
+                    <li>
+                        <a href="/totw-archive">Thing of the Week archive</a>
+                        <p>Previously featured things of the week from the homepage</p>
+                    </li>
+                    <li>
+                        <del>Collections</del>
+                        <p>A collection of my various... collections</p>
+                    </li>
+                    <li>
+                        <del>Toybox</del>
+                        <p>Play touys with me :]</p>
+                    </li>
+                    <li>
+                        <del>Craft room</del>
+                        <p>A museum of arts n crafts made by yours truly</p>
+                    </li>
+                </ul>
+            <li><del>Shrines</del> - pages dedicated to showcasing Things I Like</li>
+            <li><del>OCs</del> - pages about my little guys. I'm really normal about them prommy</li>
+            <li>
+                <a href="/links">Links</a> - Sites in orbit around lunarlily, for further exploring!
+            </li>
+            <li><a href="https://lunarlily.neocities.org/not_found.html">404 page</a></li>
         </ul>
-      </div>
-    </div>
-
-
-
-
-    <div id="right">
-      <div id="rightbox">
-        <div id="statusbox"></div>
-      </div>
-
-      <div id="rightbox">
-        <div id="counterbox">
-        </div>
-      </div>
-
-      <div id="rightbox">
-        <div id="webringsbox"></div>
-      </div>
-
-      <div id="rightbox">
-        <div id="linkbackbox"></div>
-      </div>
-
-      <div id="rightbox">
-        <div id="rssbox"></div>
-      </div>
-    </div>
-
-
-
-    <div id="footer">
-      <div id="footerbox">
-        <div id="footertext"></div>
-      </div>
-    </div>
-
-
-
-  </div>
-
-
-  <script src="/scripts/tagsScript.js"></script>
-  <script src="/scripts/headerfooter.js"></script>
-  <script src="/scripts/sidebars.js"></script>
-  <script src="/scripts/widgets.js"></script>
-  <script src="https://status.cafe/current-status.js?name=luna" defer></script>
-</body>
-
-</html>
+        <p class="subtletext">Anything <del>crossed out</del> doesn't exist yet, but is coming soon!</p>
+    </section>
+</div>

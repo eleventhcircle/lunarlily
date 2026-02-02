@@ -1,0 +1,186 @@
+/* cursor and box-sizing */
+* {
+    box-sizing: border-box;
+    cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat996.cur), auto !important;
+}
+
+
+/* global color variables */
+:root {
+    /* TO DEFINE   --name: #code 
+       TO USE      property: var(--name) */
+    --purple: #5C3890;
+    --lightpurple: #AA89D1;
+    --lighterpurple: #BFA7DD;
+    --darkpurple: #3A2258;
+
+    --blue: #437BA1;
+    --lightblue: #7EABC9;
+    --darkblue: #305873;
+
+    --yellow: #B9A429;
+    --lightyellow: #DAC758;
+    --darkyellow: #75671A;
+
+    --green: #3C8568;
+    --lightgreen: #64B997;
+    --darkgreen: #265442;
+
+    --red: #853542;
+    --lightred: #B95062;
+    --lighterred: #CB7C89;
+    --darkred: #58232C;
+
+    --orange: #d89a83;
+
+    --indigo: #282446;
+    --lightindigo: #4D4587;
+    --lighterindigo: #736BB3;
+    --darkindigo: #1E1C36;
+
+    --trans-white: rgba(255, 255, 255, 0.65);
+    --white: #f6f3eb;
+    --grey: #555;
+    --black: #000;
+
+    --trans-purple: rgba(245, 242, 253, 0.65);
+    --trans-blue: rgba(140, 180, 207, 0.65);
+    --trans-yellow: rgba(226, 210, 121, 0.65);
+    --trans-red: rgba(214, 153, 162, 0.65);
+    --trans-green: rgba(142, 204, 181, 0.65);
+
+    --gradient: linear-gradient(90deg,rgba(126, 171, 201, 1) 30%, rgba(135, 93, 192, 1) 43%, rgba(203, 124, 137, 1) 56%, rgba(218, 199, 88, 1) 70%);
+}
+
+
+/* define fonts */
+@font-face {
+    font-family: "Homemade Apple";
+    src: url(/fonts/HomemadeApple-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url(/fonts/Lora-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url(/fonts/Lora-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url(/fonts/Nunito-Light.ttf);
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url(/fonts/Nunito-LightItalic.ttf);
+    font-style: italic;
+}
+
+
+/* global styling */
+body {
+    font-family: "Lora";
+    font-size: 1em;
+    line-height: 140%
+}
+
+#wrapper {
+    height: 100%;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 100%;
+    height: auto;
+}
+
+
+/* text stylings */
+.subtletext {
+    font-size: 0.85em;
+    font-style: italic;
+    line-height: 115%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 650;
+}
+
+em, i {
+    color: var(--grey);
+}
+
+strong, b {
+    color: var(--black);
+}
+
+del, s {
+    color: var(--grey);
+    text-decoration-color: var(--purple);
+}
+
+a {
+    text-underline-offset: 0.17em;
+    color: var(--purple);
+    font-weight: 500;
+    
+}
+
+::selection {
+    background-color: var(--lightblue);
+    color: var(--grey);
+}
+
+::-moz-selection {
+    background-color: var(--lightblue);
+    color: var(--grey);
+}
+
+
+/* external link decoration */
+a[href*="//"]::after { 
+    content: "";
+    width: 1em;
+    height: 0.7em;
+    display: inline-block;
+    background-color: var(--lightindigo);
+    /* external-link icon SVG from Lucide - https://lucide.dev/icons/external-link */
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-external-link'%3E%3Cpath d='M15 3h6v6'/%3E%3Cpath d='M10 14 21 3'/%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-external-link'%3E%3Cpath d='M15 3h6v6'/%3E%3Cpath d='M10 14 21 3'/%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3C/svg%3E");
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+    margin-left: 1px;
+}
+
+.noexternal a[href*="//"]::after { 
+    width: 0;
+    height: 0;
+    display: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+}
+
+/* for outbound links like buttons and images, remove the text decoration */
+.nodeco {
+    text-decoration: none;
+}
+
+
+/* ffxiv banner "ads" below footer bar */
+#ffxivad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ffxivad img {
+    width:450px;
+    border-radius:10px;
+}

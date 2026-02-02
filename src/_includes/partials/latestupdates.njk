@@ -1,0 +1,7 @@
+    <h3>Latest update</h3>
+    {% for log in changelog %} {% if log.newest == true %}
+    <h4 class="titlemargin">{{ log.title }}</h4>
+    <p class="pmargin subtletext">Updated: {{ log.caldate }}</p>
+    {{ log.unescaped }}
+    {% endif %}{% endfor %}
+    <p class="subtletext">see older updates in the full <a href="/changelog">changelog</a>, or <a href="/feed.xml">subscribe to the feed</a>!</p>

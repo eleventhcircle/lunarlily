@@ -1,0 +1,85 @@
+[
+    {
+        "name": "nightmarefish",
+        "link": "https://nightmarefish.neocities.org",
+        "fileext": "png",
+        "type": "friend"
+    },
+
+    {
+        "name": "zhongvie",
+        "link": "https://zhongvie.neocities.org",
+        "fileext": "gif",
+        "type": "neighbor"
+    },
+
+    {
+        "name": "yarnfish",
+        "link": "https://yarnfish.neocities.org",
+        "fileext": "gif",
+        "type": "neighbor"
+    },
+
+    {
+        "name": "starry-knight",
+        "link": "https://starry-knight.neocities.org",
+        "fileext": "png",
+        "type": "inspiration"
+    },
+
+    {
+        "name": "petrapixel",
+        "link": "https://petrapixel.neocities.org",
+        "fileext": "gif",
+        "type": "inspiration"
+    },
+
+    {
+        "name": "aroceu",
+        "link": "https://aroceu.com",
+        "fileext": "png",
+        "type": "inspiration"
+    },
+
+    {
+        "name": "nonkiru",
+        "link": "https://nonkiru.art",
+        "fileext": "gif",
+        "type": "inspiration"
+    },
+
+    {
+        "name": "deoxysspace",
+        "link": "https://deoxys.space/",
+        "fileext": "png",
+        "type": "inspiration"
+    },
+
+    {
+        "name": "lostletters",
+        "link": "https://lostletters.neocities.org",
+        "fileext": "gif",
+        "type": "inspiration"
+    },
+
+    {
+        "name": "mariteaux",
+        "link": "https://mariteaux.somnolescent.net",
+        "fileext": "png",
+        "type": "inspiration"
+    },
+
+    {
+        "name": "yogomagpie",
+        "link": "https://yogomagpie.neocities.org/",
+        "fileext": "gif",
+        "type": "inspiration"
+    },
+
+    {
+        "name": "hellomei",
+        "link": "https://hellomei.dev/",
+        "fileext": "gif",
+        "type": "inspiration"
+    }
+]

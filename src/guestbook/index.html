@@ -1,105 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: page_base.njk
+title: "guestbook"
+---
 
-<head>
-  <title>blooming on the moon</title>
-  <link rel="icon" href="/graphics/favicon.gif" type="image/x-icon" />
-  <link rel="stylesheet" href="/styles/main-style.css" type="text/css">
-  <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="RSS">
+<div class="left">
+    <!-- what's new + RSS feed -->
+    <section class="red">
+        {% include "partials/latestupdates.njk" %}
+    </section>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-</head>
+    <!-- statuscafe -->
+    <section class="blue">
+        {% include "partials/statuscafe.njk" %}
+    </section>
 
+    <!-- currently -->
+    <section class="green">
+        {% include "partials/currently.njk" %}
+    </section>
 
+    <!-- link back -->
+    <section class="yellow">
+        {% include "partials/linkback.njk" %}
+    </section>
+</div>
 
-<body>
-
-  <div id="layout">
-    <div id="banner">
-      <div id="bannertextorimage"></div>
-    </div>
-
-
-
-    <div id="navigationbar">
-      <div id="navigation"></div>
-    </div>
-
-
-
-    <div id="left">
-      <div id="leftbox">
-        <div id="featurebox">
-        </div>
-      </div>
-
-      <div id="leftbox">
-        <div id="currentlybox"></div>
-      </div>
-
-      <div id="leftbox">
-        <div id="linksbox"></div>
-      </div>
-
-      <div id="leftbox">
-        <div id="todobox"></div>
-      </div>
-    </div>
-
-
-
-    <div id="content">
-      <div id="contentbox">
-        <div class="big-title"><img src="/graphics/yflower.png" alt="x" style="margin-left:3px; margin-bottom:1px;"> sign the guestbook!</div>
-        <iframe src="https://lunarlily.atabook.org/" width="380px" height="1000px" style="border: none;"></iframe>
-      </div>
-    </div>
-
-
-
-
-    <div id="right">
-      <div id="rightbox">
-        <div id="statusbox"></div>
-      </div>
-
-      <div id="rightbox">
-        <div id="counterbox">
-        </div>
-      </div>
-
-      <div id="rightbox">
-        <div id="webringsbox"></div>
-      </div>
-
-      <div id="rightbox">
-        <div id="linkbackbox"></div>
-      </div>
-
-      <div id="rightbox">
-        <div id="rssbox"></div>
-      </div>
-    </div>
-
-
-
-    <div id="footer">
-      <div id="footerbox">
-        <div id="footertext"></div>
-      </div>
-    </div>
-
-
-
-  </div>
-
-
-  <script src="/scripts/tagsScript.js"></script>
-  <script src="/scripts/headerfooter.js"></script>
-  <script src="/scripts/sidebars.js"></script>
-  <script src="/scripts/widgets.js"></script>
-  <script src="https://status.cafe/current-status.js?name=luna" defer></script>
-</body>
-
-</html>
+<div class="right">
+    <section class="purple">
+        <h2>Record your visit in the captain's log!</h2>
+    </section>
+    <section class="orange">
+        <iframe class="guestbook" src="https://lunarlily.atabook.org/"></iframe>
+    </section>
+</div>

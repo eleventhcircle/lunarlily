@@ -1,0 +1,73 @@
+[
+    {
+        "title": "lunarlily v2.0 is live!",
+        "date": "2026-02-01T00:00:00Z",
+        "link": "https://lunarlily.neocities.org/",
+        "id": "https://lunarlily.neocities.org/feed/260201/",
+        "content": "&lt;p&gt;Long time, no update! After several months of scattered late-night coding sessions, the site overhaul is (mostly) complete.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Now built with Eleventy!&lt;/li&gt;&lt;li&gt;New site structure 100% coded by me (wow!)&lt;/li&gt;&lt;li&gt;Two new pages (links and changelog)&lt;/li&gt;&lt;li&gt;A shiny new coat of CSS paint :]&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;I'd like to talk about the process and some of the problems I ran into, but I want to get the actual update out first. Keep an eye out for a write-up soon!&lt;/p&gt;",
+        "unescaped": "<p>Long time, no update! After several months of scattered late-night coding sessions, the site overhaul is (mostly) complete.</p><ul class=\"listnopad\"><li>Now built with Eleventy!</li><li>New site structure 100% coded by me (wow!)</li><li>Two new pages (links and changelog)</li><li>A shiny new coat of CSS paint :]</li></ul><p>I'd like to talk about the process and some of the problems I ran into, but I want to get the actual update out first. Keep an eye out for a write-up soon!</p>",
+        "color": "purple",
+        "caldate": "1 Feb 2026",
+        "newest": true
+    },
+
+    {
+        "title": "New TOTW and new neighbors!",
+        "date": "2025-11-23T00:00:00Z",
+        "link": "https://lunarlily.neocities.org/",
+        "id": "https://lunarlily.neocities.org/feed/251123/",
+        "content": "Finally breaking the Thursday update stretch. New TOTW, the exciting (and very belated!) first addition to the Neighbors section, and a little notice about ongoing site construction (which is why I've been rather quiet!)",
+        "unescaped": "<p>Finally breaking the Thursday update stretch. New TOTW, the exciting (and very belated!) first addition to the Neighbors section, and a little notice about ongoing site construction (which is why I've been rather quiet!)</p>",
+        "color": "blue",
+        "caldate": "23 Nov 2025",
+        "newest": false
+    },
+
+    {
+        "title": "Journal update! Talking about some books",
+        "date": "2025-10-16T00:00:00Z",
+        "link": "https://lunarlily.neocities.org/journal/posts/2025-10-16/",
+        "id": "https://lunarlily.neocities.org/feed/251016/",
+        "content": "New entry in the journal and a new TOTW. Whenever I update the site, it somehow always ends up on a Thursday...",
+        "unescaped": "<p>New entry in the journal and a new TOTW. Whenever I update the site, it somehow always ends up on a Thursday...</p>",
+        "color": "green",
+        "caldate": "16 Oct 2025",
+        "newest": false
+    },
+
+    {
+        "title": "New TOTW",
+        "date": "2025-10-09T00:00:00Z",
+        "link": "https://lunarlily.neocities.org/",
+        "id": "https://lunarlily.neocities.org/feed/251009/",
+        "content": "New TOTW! Working on several bigger things behind the scenes, life got busy for a bit so I have nothing to show yet but they're coming",
+        "unescaped": "<p>New TOTW! Working on several bigger things behind the scenes, life got busy for a bit so I have nothing to show yet but they're coming</p>",
+        "color": "yellow",
+        "caldate": "9 Oct 2025",
+        "newest": false
+    },
+
+    {
+        "title": "New Thing of the Week",
+        "date": "2025-09-25T00:00:00Z",
+        "link": "https://lunarlily.neocities.org/",
+        "id": "https://lunarlily.neocities.org/feed/250925/",
+        "content": "New TOTW, reorganized the archive to be in reverse chronological order (newest to oldest), a few housekeeping things too.",
+        "unescaped": "<p>New TOTW, reorganized the archive to be in reverse chronological order (newest to oldest), a few housekeeping things too.</p>",
+        "color": "orange",
+        "caldate": "25 Sep 2025",
+        "newest": false
+    },
+    
+    {
+        "title": "An RSS feed is born!",
+        "date": "2025-09-11T00:00:00Z",
+        "link": "https://lunarlily.neocities.org/credits",
+        "id": "https://lunarlily.neocities.org/feed/250911/",
+        "content": "If I set everything up correctly, there should now be a link on the right sidebar to this RSS feed! Hello! I also updated a few things on the credits page, including links to helpful RSS guides and some new VSCode extensions I started using recently.",
+        "unescaped": "<p>If I set everything up correctly, there should now be a link on the right sidebar to this RSS feed! Hello! I also updated a few things on the credits page, including links to helpful RSS guides and some new VSCode extensions I started using recently.</p>",
+        "color": "red",
+        "caldate": "11 Sep 2025",
+        "newest": false
+    }
+]
