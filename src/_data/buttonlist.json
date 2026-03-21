@@ -81,5 +81,19 @@
         "link": "https://hellomei.dev/",
         "fileext": "gif",
         "type": "inspiration"
+    },
+
+    {
+        "name": "nastrond",
+        "link": "https://nastrond.neocities.org/",
+        "fileext": "gif",
+        "type": "friend"
+    },
+
+    {
+        "name": "mathysphere",
+        "link": "https://mathysphere.gay/",
+        "fileext": "gif",
+        "type": "neighbor"
     }
 ]

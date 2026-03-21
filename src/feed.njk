@@ -24,7 +24,7 @@
   <author>
     <name>{{ metadata.author.name }}</name>
   </author>
-  {%- for entry in changelog | reverse %}
+  {%- for entry in changelog %}
   <entry>
     <title>{{ entry.title }}</title>
     <link href="{{ entry.link }}" />

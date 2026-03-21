@@ -1,0 +1,73 @@
+---
+layout: journal.njk
+tags: posts, 2026, yapping
+title: "The great winter webbed site overhaul"
+postdate: "Mar 20, 2026"
+---
+<p>
+    Well uh. That sure took a lot longer than I intended.
+</p>
+<p>
+    But it's done! A whole new look for lunarlily, wowie! I'm quite proud of how it turned out :] I hope you've enjoyed exploring around too. Since finishing all the changes, I've been scribbling down some thoughts about the whole process - what I like, what I still want to change, things that got me frustrated while I was working, and so on - and I thought it'd be fun to share some of them. This isn't going to be a tutorial or anything, but more like a retrospective; if a more technical walkthrough of the steps I took (and problems I ran into) while moving to Eleventy would be helpful to anyone, please do let me know! I just want to set expectations of what this journal entry is going to be about at the start lol
+</p>
+<p>
+    Between launching lunarlily in July last year and when I sat down to start the overhaul, I had amassed a list of gripes with how the site looked and felt at the time. Thus, my goals (or motivations?) going into the overhaul were something like this:
+    <ul>
+        <li>
+            <strong>Improve accessibility and mobile experience.</strong> It's important to me that lunarlily is welcoming to as wide an audience as possible; nobody should be turned away because their accessibility aids can't properly help them nagivate around or because my layout isn't friendly for phone-sized screens.
+        </li>
+        <li>
+            <strong>Reduce the amount of repetitive work that goes into site updates.</strong> Even with Javascript doing some of the heavy lifting with sections like the sidebars, I was frustrated by how much I was having to copy + paste between pages. And if I wanted to make a change to something global like site metadata in the head tag? I had to manually change it on every single page! No!! I'm lazy! I don't wanna!!!
+        </li>
+        <li>
+            <strong>Make future maintenance and changes easier.</strong> I wanted this overhaul to be the most difficult and annoying one I ever have to do. If I wake up tomorrow and want to change my layout again, everything should be modular and flexible enough that it doesn't take more than a couple hours to visually overhaul without needing huge structural changes. In the most perfect scenario, I shouldn't even have to touch the actual site content at all!
+        </li>
+        <li>
+            <strong>Improve my understanding of my own site's code.</strong> This one stemmed from my own inexperience. It took a long time to do most things around here because I had to spend a while just reading over the template code and figuring out what the hell was going on, before I could even start on any changes I wanted to make. I figured if I had something I wrote myself (and commented as thoroughly as I needed), I could get some of that time back and put it toward actually making the goofy stuff I wanna share :]
+        </li>
+        <li>
+            <strong>Kind of wanted to prove to myself that I could do it?</strong> The most nebulous goal/motivation on here lol. I think I just wanted to have something in my hands by the end that I could point at and go "Hey look! I made this!" and like... feel proud of that, and of everything I learned while making it. If that makes sense.
+        </li>
+    </ul>
+</p>
+<p>
+    The actual process of rebuilding everything from the ground up was both deeply fulfilling and <em><strong>deeply</strong></em> fucking annoying at times. I learned a lot, especially about CSS - historically that's been a weak spot for me but I feel like now I halfway comprehend how to use it (?!) which is wild. Finding and reading through all sorts of tutorials, guides, forum threads and the like was probably one of my favorite parts of the whole endeavor. It's really cool to see such a vast variety of philosophies and approaches to building a website! And the community around the small/indie/personal/whatever web is so welcoming and open - I'm still generally too shy <del>and stubborn</del> to ask questions when I can't figure something out, but I'm grateful that this isn't a community where I need to be afraid of ridicule because I don't understand something.
+</p>
+<p>
+    It took much longer than I expected when I first started. A lot of that I can blame on my job and life things: I'm juggling a lot of responsibilities and stress, and I've also been working ~50hr weeks for months now. So like... I'm kinda cooked y'know? What little free time I have must be split between a million things, so my coding sessions were pretty short and sporadic. Made it tough to learn and really experiment with new stuff, too - I just never felt like I had enough time.
+</p>
+<p>
+    I also got in my own way a lot. When I'm working on creative projects, I have a tendency to get <em>stuck</em> on certain bits: usually there's a specific way I want that bit to look or to act, but for whatever reason I can't get it to work exactly right. I'm not allowed to move on or work on other bits until it's finished. As you might imagine - very frustrating to deal with! Very unproductive! Very not good for my motivation! I had to convince myself it was okay do things "wrong" (for example, hardcoding where I maybe wanted to automate something) so I could move on and make progress elsewhere; a tough pill to swallow at first, but it got easier once I got past the mental blocks and started having fun again lol. There's no demand for performance here: having a personal site isn't my job and I don't need to do everything perfectly the first time! There's no rule saying I can't come back later and fix those "wrong" things either. <em>(holding a brick over my own damn head)</em> We have fun here. Do not forget this.
+</p>
+<p>
+    I'd be remiss not to share some of the sites that inspired me! In particular, spending time exploring on <a href="https://hellomei.dev">hellomei</a> and <a href="https://zhongvie.neocities.org">zhongvie</a> helped me sort my thoughts on how to approach structuring most pages. Granted, these are both sites I already liked a lot :] But it was really helpful to "study" them in a design sense, to figure out <em>why</em> I liked them so much. I actually took notes in my Obsidian vault to help myself when I sat down to draw out ideas for my new homepage... maybe seems a bit silly but it worked well for me. I also quite literally drew out my design ideas and folder structures. The paper is floating around somewhere in my office lol if I can find it, I'll upload a picture here later.
+</p>
+<p>
+    The last notes I have scribbled down are about Eleventy and why I migrated to a static site generator (SSG). Two big reasons: <strong>collections</strong> and <strong>templates</strong>. Templates were Eleventy's biggest draw to me (though the concept is not unique to Eleventy!). You could think of them a bit like Legos: I've broken down my site into various "blocks", and I combine them together to "build" out webpages. It takes much of the repetitive work out of making webpages, which was one of the biggest hurdles to getting myself to actually do anything on the site lol. It also lets me avoid relying so much on Javascript! Instead of multiple scripts running every single time a page loads to build things like the navigation bar or sidebars, Eleventy "builds" all the templates together into pages made just from HTML and CSS (this is the <em>generate</em> part of SSG). These pages are what get uploaded to Neocities. In a sense, Eleventy does the loading part in advance so you guys just get the final result! This makes for a more accessible experience for those who browse the web with JS turned off :] Like I mentioned near the start, it's important to me that lunarlily is welcoming - while I haven't completely done away with using JS for certain functionality (for example, the FFXIV ad randomizer in the footer still uses JS to refresh on page load), it's not a critical part of actually navigating the site anymore.
+</p>
+<p>
+    Collections give me a way to manage data like changelogs, TOTW entries, site buttons, and so on. I can define all the data I need about each item in a collection, and then any page or template can refer to a collection when specific data is needed. For example, I have a changelog collection that I add an entry to each time I push a major update to the site. Two of my templates look for data in this collection: my RSS feed and the Latest Update section of the sidebar that shows on many pages. Instead of repeating the same data across multiple places (or using Javascript to load the data on every page refresh), the changelogs data lives in one file that can be referenced anywhere! So in essence, collections work in tandem with templates to remove a lot of repetition so it's easier to make changes across the site. I'm definitely simplifying a bit with some of my explanations here lol but I hope I've gotten the idea across well enough.
+</p>
+<p>
+    So how do I feel about lunarlily now? Why, thank you for asking! Please enjoy the following bulletpoint lists that summarize my thoughts:
+</p>
+<p>
+    <strong>What I like:</strong>
+    <ul>
+        <li>cleaner layout, easier to read</li>
+        <li>much easier to maintain in the backend</li>
+        <li>space theme :]</li>
+        <li>if I want to make pages with completely different layouts or designs, it's pretty simple now to manage multiple stylesheets</li>
+        <li>automated RSS feed so my dumb ass doesn't keep fumbling the formatting every time I update the site</li>
+    </ul>
+
+    <strong>What I don't like:</strong>
+    <ul>
+        <li>feels kind of plain(?) visually, but I'm at a loss for what I'd want to change</li>
+        <li>images aren't as organized as I want (figure out a better folder structure? naming standardization?? idk needs more time in the crockpot of ideas)</li>
+        <li>I'm still kind of confused about how to use and manipulate Eleventy collections...? There's a few places where functionality is either manual or missing (i.e. tags list for the journal) right now, and I could probably fix this if I could better wrap my head around how they work</li>
+    </ul>
+</p>
+<p>
+    And there you have it! Now that lunarlily is in a place that I'm much happier with, I think I'll stop avoiding working on new things for the site. Y'know when you clean your room up a bit and suddenly it feels a lot better to exist in there because some of the clutter or mess is gone? It's like you can think a little clearer or something. This feels like that for me LOL so thank you for your patience while I hammered away!
+</p>
