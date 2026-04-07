@@ -12,6 +12,7 @@ At some point I might remove this copy of the changelog and just link to the act
 
 ### 2026  
 
+- **6 April 2026:** Created the /now page and shared a new TOTW
 - **20 March 2026:** A new journal entry about the aforementioned site overhaul, and a new TOTW
 - **1 February 2026:** Long time, no update! After several months of scattered late-night coding sessions, the site overhaul is (mostly) complete.
 

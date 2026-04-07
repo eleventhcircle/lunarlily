@@ -1,5 +1,17 @@
 [
     {
+        "title": "New page and a new TOTW!",
+        "date": "2026-04-06T22:20:00-07:00",
+        "link": "https://lunarlily.neocities.org/now",
+        "id": "https://lunarlily.neocities.org/feed/260406/",
+        "content": "<p>Say hello to the newest addition to lunarlily: the /now page! Got a new thing of the week to share too (and at the beginning of a week, no less).</p>",
+        "unescaped": "<p>Say hello to the newest addition to lunarlily: the /now page! Got a new thing of the week to share too (and at the beginning of a week, no less).</p>",
+        "color": "orange",
+        "caldate": "6 Apr 2026",
+        "newest": true
+    },
+
+    {
         "title": "New journal entry!",
         "date": "2026-03-20T20:40:00-07:00",
         "link": "https://lunarlily.neocities.org/journal/posts/2026-03-20/",
@@ -8,7 +20,7 @@
         "unescaped": "<p>Yapping about the site overhaul in February (and a new TOTW). As with many things, a bit belated - but maybe it's better to not think of myself as on some sort of schedule?</p>",
         "color": "red",
         "caldate": "20 Mar 2026",
-        "newest": true
+        "newest": false
     },
 
     {

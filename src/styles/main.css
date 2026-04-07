@@ -236,6 +236,12 @@ footer {
 }
 
 
+/* basic img styling to ensure they don't breach containment lol */
+img {
+    width: 80%;
+}
+
+
 /* media query - when viewing from a screen that is at least 800px wide (covers most potential monitor sizes) */
 @media only screen and (min-width: 800px) {
     nav {
