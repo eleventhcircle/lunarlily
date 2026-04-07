@@ -22,7 +22,7 @@ At some point I might remove this copy of the changelog and just link to the act
 - **16 October 2025:** New journal entry yapping about library books + new TOTW  
 - **9 October 2025:** New TOTW! Working on several bigger things behind the scenes, life got busy for a bit so I have nothing to show yet but they're coming  
 - **25 September 2025:** New TOTW, reorganized the archive to be in reverse chronological order (newest to oldest). a few housekeeping things too  
-- **11 September 2025:** An RSS feed is born! ~~[Subscribe here!](https://lunarlily.neocities.org/rss.xml)~~  **<- This link is now outdated, see the homepage of lunarlily for the new feed URL**  
+- **11 September 2025:** An RSS feed is born! ~~[Subscribe here!]()~~  **<- This link is now outdated, see the homepage of lunarlily for the new feed URL**  
 - **5 September 2025:** First journal post (hi, I'm not dead!)  
 - **16 July 2025:** Added some [goofy ads](https://bootlegdomain.neocities.org/home) for world famous MMORPG Final Fantasy XIV, updated about page with a link to my new Anilist account  
 - **3 July 2025:** First deployment yippieeeee
