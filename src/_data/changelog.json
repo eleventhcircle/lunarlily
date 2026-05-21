@@ -2,8 +2,8 @@
     {
         "title": "The yapper returns: new journal entry",
         "date": "2026-05-20T21:00:00-07:00",
-        "link": "https://lunarlily.neocities.org/now",
-        "id": "https://lunarlily.neocities.org/feed/260517/",
+        "link": "https://lunarlily.neocities.org/2026-05-20",
+        "id": "https://lunarlily.neocities.org/feed/260520/",
         "summary": "<p>Small update for today: a new journal entry, new TOTW, and a little bit of housekeeping.</p>",
         "fulldesc": "<p>Small update for today: a new journal entry, new TOTW, and a little bit of housekeeping.</p><ul class=\"listnopad\"><em><strong>New:</strong></em><li>A journal entry rambling about how friends are cool and sometimes hanging out can fix you a bit actually</li><li>Thing of the week: helpful tools for Tomolife shenanigans</li><li>Added 3DS Pretendo code to <a href=\"/about\">/about</a> - feel free to add me! Leave your code in the guestbook and I can friend back :]</ul><ul class=\"listnopad\"><em><strong>Updated:</strong></em><li>Links to media trackers on <a href=\"/about\">/about</a> - I changed my username on several sites, URLs now lead to the right profiles</li><li>Games I'm playing on <a href=\"/now\">/now</a> (you'll never guess what the new one is lol)</li></ul><ul class=\"listnopad\"><em><strong>Fixed:</strong></em><li>More of an adjustment - I fiddled with a couple things in my changelogs data structure. Now I can show a fuller list here while keeping to a short summary on the main page. I'm also trying a new format to see how I like it. Cool!</li></ul>",
         "color": "yellow",
