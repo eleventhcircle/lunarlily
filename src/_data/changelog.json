@@ -1,14 +1,25 @@
 [
     {
+        "title": "The yapper returns: new journal entry",
+        "date": "2026-05-20T21:00:00-07:00",
+        "link": "https://lunarlily.neocities.org/now",
+        "id": "https://lunarlily.neocities.org/feed/260517/",
+        "summary": "<p>Small update for today: a new journal entry, new TOTW, and a little bit of housekeeping.</p>",
+        "fulldesc": "<p>Small update for today: a new journal entry, new TOTW, and a little bit of housekeeping.</p><ul class=\"listnopad\"><em><strong>New:</strong></em><li>A journal entry rambling about how friends are cool and sometimes hanging out can fix you a bit actually</li><li>Thing of the week: helpful tools for Tomolife shenanigans</li><li>Added 3DS Pretendo code to <a href=\"/about\">/about</a> - feel free to add me! Leave your code in the guestbook and I can friend back :]</ul><ul class=\"listnopad\"><em><strong>Updated:</strong></em><li>Links to media trackers on <a href=\"/about\">/about</a> - I changed my username on several sites, URLs now lead to the right profiles</li><li>Games I'm playing on <a href=\"/now\">/now</a> (you'll never guess what the new one is lol)</li></ul><ul class=\"listnopad\"><em><strong>Fixed:</strong></em><li>More of an adjustment - I fiddled with a couple things in my changelogs data structure. Now I can show a fuller list here while keeping to a short summary on the main page. I'm also trying a new format to see how I like it. Cool!</li></ul>",
+        "color": "yellow",
+        "caldate": "20 May 2026",
+        "newest": true
+    },    
+    {
         "title": "New page and a new TOTW!",
         "date": "2026-04-06T22:20:00-07:00",
         "link": "https://lunarlily.neocities.org/now",
         "id": "https://lunarlily.neocities.org/feed/260406/",
-        "content": "<p>Say hello to the newest addition to lunarlily: the /now page! Got a new thing of the week to share too (and at the beginning of a week, no less).</p>",
-        "unescaped": "<p>Say hello to the newest addition to lunarlily: the /now page! Got a new thing of the week to share too (and at the beginning of a week, no less).</p>",
+        "summary": "<p>Say hello to the newest addition to lunarlily: the /now page! Got a new thing of the week to share too (and at the beginning of a week, no less).</p>",
+        "fulldesc": "<p>Say hello to the newest addition to lunarlily: the /now page! Got a new thing of the week to share too (and at the beginning of a week, no less).</p>",
         "color": "orange",
         "caldate": "6 Apr 2026",
-        "newest": true
+        "newest": false
     },
 
     {
@@ -16,8 +27,8 @@
         "date": "2026-03-20T20:40:00-07:00",
         "link": "https://lunarlily.neocities.org/journal/posts/2026-03-20/",
         "id": "https://lunarlily.neocities.org/feed/260320/",
-        "content": "<p>Yapping about the site overhaul in February (and a new TOTW). As with many things, a bit belated - but maybe it's better to not think of myself as on some sort of schedule?</p>",
-        "unescaped": "<p>Yapping about the site overhaul in February (and a new TOTW). As with many things, a bit belated - but maybe it's better to not think of myself as on some sort of schedule?</p>",
+        "summary": "<p>Yapping about the site overhaul in February (and a new TOTW). As with many things, a bit belated - but maybe it's better to not think of myself as on some sort of schedule?</p>",
+        "fulldesc": "<p>Yapping about the site overhaul in February (and a new TOTW). As with many things, a bit belated - but maybe it's better to not think of myself as on some sort of schedule?</p>",
         "color": "red",
         "caldate": "20 Mar 2026",
         "newest": false
@@ -28,8 +39,8 @@
         "date": "2026-02-01T00:00:00Z",
         "link": "https://lunarlily.neocities.org/",
         "id": "https://lunarlily.neocities.org/feed/260201/",
-        "content": "<p>Long time, no update! After several months of scattered late-night coding sessions, the site overhaul is (mostly) complete.</p><ul class=\"listnopad\"><li>Now built with Eleventy!</li><li>New site structure 100% coded by me (wow!)</li><li>Two new pages (links and changelog)</li><li>A shiny new coat of CSS paint :]</li></ul><p>I'd like to talk about the process and some of the problems I ran into, but I want to get the actual update out first. Keep an eye out for a write-up soon!</p>",
-        "unescaped": "<p>Long time, no update! After several months of scattered late-night coding sessions, the site overhaul is (mostly) complete.</p><ul class=\"listnopad\"><li>Now built with Eleventy!</li><li>New site structure 100% coded by me (wow!)</li><li>Two new pages (links and changelog)</li><li>A shiny new coat of CSS paint :]</li></ul><p>I'd like to talk about the process and some of the problems I ran into, but I want to get the actual update out first. Keep an eye out for a write-up soon!</p>",
+        "summary": "<p>Long time, no update! After several months of scattered late-night coding sessions, the site overhaul is (mostly) complete.</p><ul class=\"listnopad\"><li>Now built with Eleventy!</li><li>New site structure 100% coded by me (wow!)</li><li>Two new pages (links and changelog)</li><li>A shiny new coat of CSS paint :]</li></ul><p>I'd like to talk about the process and some of the problems I ran into, but I want to get the actual update out first. Keep an eye out for a write-up soon!</p>",
+        "fulldesc": "<p>Long time, no update! After several months of scattered late-night coding sessions, the site overhaul is (mostly) complete.</p><ul class=\"listnopad\"><li>Now built with Eleventy!</li><li>New site structure 100% coded by me (wow!)</li><li>Two new pages (links and changelog)</li><li>A shiny new coat of CSS paint :]</li></ul><p>I'd like to talk about the process and some of the problems I ran into, but I want to get the actual update out first. Keep an eye out for a write-up soon!</p>",
         "color": "purple",
         "caldate": "1 Feb 2026",
         "newest": false
@@ -40,8 +51,8 @@
         "date": "2025-11-23T00:00:00Z",
         "link": "https://lunarlily.neocities.org/",
         "id": "https://lunarlily.neocities.org/feed/251123/",
-        "content": "Finally breaking the Thursday update stretch. New TOTW, the exciting (and very belated!) first addition to the Neighbors section, and a little notice about ongoing site construction (which is why I've been rather quiet!)",
-        "unescaped": "<p>Finally breaking the Thursday update stretch. New TOTW, the exciting (and very belated!) first addition to the Neighbors section, and a little notice about ongoing site construction (which is why I've been rather quiet!)</p>",
+        "summary": "Finally breaking the Thursday update stretch. New TOTW, the exciting (and very belated!) first addition to the Neighbors section, and a little notice about ongoing site construction (which is why I've been rather quiet!)",
+        "fulldesc": "<p>Finally breaking the Thursday update stretch. New TOTW, the exciting (and very belated!) first addition to the Neighbors section, and a little notice about ongoing site construction (which is why I've been rather quiet!)</p>",
         "color": "blue",
         "caldate": "23 Nov 2025",
         "newest": false
@@ -52,8 +63,8 @@
         "date": "2025-10-16T00:00:00Z",
         "link": "https://lunarlily.neocities.org/journal/posts/2025-10-16/",
         "id": "https://lunarlily.neocities.org/feed/251016/",
-        "content": "New entry in the journal and a new TOTW. Whenever I update the site, it somehow always ends up on a Thursday...",
-        "unescaped": "<p>New entry in the journal and a new TOTW. Whenever I update the site, it somehow always ends up on a Thursday...</p>",
+        "summary": "New entry in the journal and a new TOTW. Whenever I update the site, it somehow always ends up on a Thursday...",
+        "fulldesc": "<p>New entry in the journal and a new TOTW. Whenever I update the site, it somehow always ends up on a Thursday...</p>",
         "color": "green",
         "caldate": "16 Oct 2025",
         "newest": false
@@ -64,8 +75,8 @@
         "date": "2025-10-09T00:00:00Z",
         "link": "https://lunarlily.neocities.org/",
         "id": "https://lunarlily.neocities.org/feed/251009/",
-        "content": "New TOTW! Working on several bigger things behind the scenes, life got busy for a bit so I have nothing to show yet but they're coming",
-        "unescaped": "<p>New TOTW! Working on several bigger things behind the scenes, life got busy for a bit so I have nothing to show yet but they're coming</p>",
+        "summary": "New TOTW! Working on several bigger things behind the scenes, life got busy for a bit so I have nothing to show yet but they're coming",
+        "fulldesc": "<p>New TOTW! Working on several bigger things behind the scenes, life got busy for a bit so I have nothing to show yet but they're coming</p>",
         "color": "yellow",
         "caldate": "9 Oct 2025",
         "newest": false
@@ -76,8 +87,8 @@
         "date": "2025-09-25T00:00:00Z",
         "link": "https://lunarlily.neocities.org/",
         "id": "https://lunarlily.neocities.org/feed/250925/",
-        "content": "New TOTW, reorganized the archive to be in reverse chronological order (newest to oldest), a few housekeeping things too.",
-        "unescaped": "<p>New TOTW, reorganized the archive to be in reverse chronological order (newest to oldest), a few housekeeping things too.</p>",
+        "summary": "New TOTW, reorganized the archive to be in reverse chronological order (newest to oldest), a few housekeeping things too.",
+        "fulldesc": "<p>New TOTW, reorganized the archive to be in reverse chronological order (newest to oldest), a few housekeeping things too.</p>",
         "color": "orange",
         "caldate": "25 Sep 2025",
         "newest": false
@@ -88,8 +99,8 @@
         "date": "2025-09-11T00:00:00Z",
         "link": "https://lunarlily.neocities.org/credits",
         "id": "https://lunarlily.neocities.org/feed/250911/",
-        "content": "If I set everything up correctly, there should now be a link on the right sidebar to this RSS feed! Hello! I also updated a few things on the credits page, including links to helpful RSS guides and some new VSCode extensions I started using recently.",
-        "unescaped": "<p>If I set everything up correctly, there should now be a link on the right sidebar to this RSS feed! Hello! I also updated a few things on the credits page, including links to helpful RSS guides and some new VSCode extensions I started using recently.</p>",
+        "summary": "If I set everything up correctly, there should now be a link on the right sidebar to this RSS feed! Hello! I also updated a few things on the credits page, including links to helpful RSS guides and some new VSCode extensions I started using recently.",
+        "fulldesc": "<p>If I set everything up correctly, there should now be a link on the right sidebar to this RSS feed! Hello! I also updated a few things on the credits page, including links to helpful RSS guides and some new VSCode extensions I started using recently.</p>",
         "color": "red",
         "caldate": "11 Sep 2025",
         "newest": false

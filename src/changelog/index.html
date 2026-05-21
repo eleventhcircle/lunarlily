@@ -25,7 +25,7 @@ title: "changelog"
     {%- for log in changelog -%}
     <section class="{{ log.color }}">
         <h3>{{ log.caldate }}: {{ log.title }}</h3>
-        {{ log.unescaped }}
+        {{ log.fulldesc }}
     </section>
     {%- endfor -%}
 </div>

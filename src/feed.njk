@@ -30,7 +30,7 @@
     <link href="{{ entry.link }}" />
     <updated>{{ entry.date }}</updated>
     <id>{{ entry.id }}</id>
-    <content type="html">{{ entry.content | renderTransforms(post.data.page, metadata.base) }}</content>
+    <content type="html">{{ entry.summary | renderTransforms(post.data.page, metadata.base) }}</content>
   </entry>
   {%- endfor %}
 </feed>
