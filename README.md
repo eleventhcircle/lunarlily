@@ -12,6 +12,7 @@ At some point I might remove this copy of the changelog and just link to the act
 
 ### 2026  
 
+- **23 May 2026:** A new journal entry (twice in one month?!)
 - **20 May 2026:** A new journal entry, new TOTW, and a little bit of housekeeping
 - **6 April 2026:** Created the /now page and shared a new TOTW
 - **20 March 2026:** A new journal entry about the aforementioned site overhaul, and a new TOTW

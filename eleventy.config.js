@@ -6,6 +6,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/scripts");
     eleventyConfig.addPassthroughCopy("src/robots.txt");
     eleventyConfig.addPassthroughCopy("src/fonts");
+    eleventyConfig.addPassthroughCopy("src/journal/images");
 
     eleventyConfig.addPlugin(pluginRss);
 

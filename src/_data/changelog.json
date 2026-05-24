@@ -1,5 +1,16 @@
 [
     {
+        "title": "New journal entry (twice in one month?!)",
+        "date": "2026-05-23T22:10:00-07:00",
+        "link": "https://lunarlily.neocities.org/2026-05-23",
+        "id": "https://lunarlily.neocities.org/feed/260523/",
+        "summary": "<p>A video game demo happened to me and I'm about to make it everyone's problem.</p>",
+        "fulldesc": "<p>A video game demo happened to me and I'm about to make it everyone's problem. A second update within one month, can you believe it?</p><ul class=\"listnopad\"><em><strong>New:</strong></em><li>Journal post about Diorama Break because it has been living rent-free inside my head for a month and I need to talk to someone else about it or I'll die</li></ul><ul class=\"listnopad\"><em><strong>Updated:</strong></em><li>Nothing!</li></ul><ul class=\"listnopad\"><em><strong>Fixed:</strong></em><li>Nothing!</li></ul>",
+        "color": "green",
+        "caldate": "23 May 2026",
+        "newest": true
+    }, 
+    {
         "title": "The yapper returns: new journal entry",
         "date": "2026-05-20T21:00:00-07:00",
         "link": "https://lunarlily.neocities.org/2026-05-20",
@@ -8,7 +19,7 @@
         "fulldesc": "<p>Small update for today: a new journal entry, new TOTW, and a little bit of housekeeping.</p><ul class=\"listnopad\"><em><strong>New:</strong></em><li>A journal entry rambling about how friends are cool and sometimes hanging out can fix you a bit actually</li><li>Thing of the week: helpful tools for Tomolife shenanigans</li><li>Added 3DS Pretendo code to <a href=\"/about\">/about</a> - feel free to add me! Leave your code in the guestbook and I can friend back :]</ul><ul class=\"listnopad\"><em><strong>Updated:</strong></em><li>Links to media trackers on <a href=\"/about\">/about</a> - I changed my username on several sites, URLs now lead to the right profiles</li><li>Games I'm playing on <a href=\"/now\">/now</a> (you'll never guess what the new one is lol)</li></ul><ul class=\"listnopad\"><em><strong>Fixed:</strong></em><li>More of an adjustment - I fiddled with a couple things in my changelogs data structure. Now I can show a fuller list here while keeping to a short summary on the main page. I'm also trying a new format to see how I like it. Cool!</li></ul>",
         "color": "yellow",
         "caldate": "20 May 2026",
-        "newest": true
+        "newest": false
     },    
     {
         "title": "New page and a new TOTW!",
