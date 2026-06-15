@@ -10,6 +10,16 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPlugin(pluginRss);
 
+    eleventyConfig.addCollection("tagslist", function(collectionApi) {
+        let tagslist = new Set();
+        let journalposts = collectionApi.getFilteredByTag("journals");
+        journalposts.forEach(j => {
+            let jtags = j.data.journaltags;
+            jtags.forEach(t => tagslist.add(t));
+        });
+        return Array.from(tagslist);
+    });
+
     return {
         dir: {
             input: "src",
