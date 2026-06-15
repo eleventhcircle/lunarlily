@@ -1,19 +1,22 @@
 ---
 layout: page_base.njk
 title: "changelog"
+pagination:
+    data: changelog
+    size: 5
+permalink: "changelog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber | plus: 1 }}/{% endif %}index.html"
 ---
 
 <div class="left">
     <section class="indigo">
         <h3>Site maintenance logs</h3>
         <p>Here lives a record of all changes made to lunarlily... ever. Entries are shown in reverse chronological order.</p>
-        <p>At some point I'm going to set up pagination, since this will get incredibly unwieldy to navigate otherwise.</p>
     </section>
 
     <section class="indigo">
         <h3>Stay connected!</h3>
         <p>
-            If you want to keep up with future updates, you can add <a href="http://localhost:8080/feed.xml">my RSS feed</a> to any feed reader and get notified when the site updates.
+            If you want to keep up with future updates, you can add <a href="/feed.xml">my RSS feed</a> to any feed reader and get notified when the site updates.
         </p>
         <p class="subtletext">
             Thanks for being interested enough in my goofy little site to do that btw... it's an honor :]
@@ -22,10 +25,26 @@ title: "changelog"
 </div>
 
 <div class="right">
-    {%- for log in changelog -%}
-    <section class="{{ log.color }}">
-        <h3>{{ log.caldate }}: {{ log.title }}</h3>
-        {{ log.fulldesc }}
+    {%- for item in pagination.items -%}
+    <section class="{{ item.color }}">
+        <h3>{{ item.caldate }}: {{ item.title }}</h3>
+        {{ item.fulldesc }}
     </section>
     {%- endfor -%}
+
+    <section class="indigo">
+        <p>
+        {% if pagination.href.previous %}
+        <a href="{{ pagination.href.previous }}">Previous</a>
+        {% else %}
+        Previous
+        {% endif %}
+        |
+        {% if pagination.href.next %}
+        <a href="{{ pagination.href.next }}">Next</a>
+        {% else %}
+        Next
+        {% endif %}
+        </p>
+    </section>
 </div>
