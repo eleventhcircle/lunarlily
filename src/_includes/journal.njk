@@ -8,7 +8,9 @@ layout: page_base.njk
         <h3>Tagged with:</h3>
         <ul>
         {% for tag in journaltags %}
-            <li>{{ tag }}</li>
+            <li>
+                <a href="/journal/tagged/{{ tag | slugify }}">{{ tag }}</a>
+            </li>
         {% endfor %}    
         </ul>
      </section>

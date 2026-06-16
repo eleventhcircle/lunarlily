@@ -1,6 +1,8 @@
 ---
 layout: page_base.njk
 title: journal index
+eleventyImport:
+    collections: ["journals"]
 ---
 
 <div class="left">
@@ -13,12 +15,12 @@ title: journal index
 <div class="right">
     <!-- journal entries index -->
      <section class="blue">
-        <h2>Now entering: the yap zone</h2>
+        <h2>Now entering... The Yap Zone</h2>
         <ul>
-            {% for entry in journalentries %}
+            {% for entry in collections.journals | reverse %}
             <li>
-                <a href="/journal/posts/{{ entry.url }}">{{ entry.title }}</a>
-                <p class="subtletext">{{ entry.date }}</p>
+                <a href="/journal/posts/{{ entry.data.url }}">{{ entry.data.title }}</a>
+                <p class="subtletext">{{ entry.data.postdate }} | Tagged: {{ entry.data.journaltags | join(", ") }}</p>
             </li>
             {% endfor %}
         </ul>

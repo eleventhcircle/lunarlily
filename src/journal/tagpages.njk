@@ -1,0 +1,32 @@
+---
+layout: page_base.njk
+pagination:
+    data: collections.tagslist
+    size: 1
+    alias: tag
+permalink: "/journal/tagged/{{ tag | slugify }}/index.html"
+title: journal entries tagged with {{ tag }}
+---
+
+<div class="left">
+    <!-- tags list -->
+     <section class="green">
+        {% include "partials/taglist.njk" %}
+     </section>
+</div>
+
+<div class="right">
+    <!-- list of journal entries with the given tag -->
+     <section class="blue">
+        <h2>Journal entries tagged with "{{ tag }}"</h2>
+        <ul>
+            {% set entries = collections.journals | filterByTag(tag) %}
+            {% for entry in entries | reverse %}
+            <li>
+                <a href="/journal/posts/{{ entry.data.url }}">{{ entry.data.title }}</a>
+                <p class="subtletext">{{ entry.data.postdate }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+     </section>
+</div>

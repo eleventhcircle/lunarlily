@@ -17,7 +17,16 @@ module.exports = function (eleventyConfig) {
             let jtags = j.data.journaltags;
             jtags.forEach(t => tagslist.add(t));
         });
-        return Array.from(tagslist);
+        return Array.from(tagslist).sort();
+    });
+
+    eleventyConfig.addFilter("filterByTag", function(posts, tag) {
+        tag = tag.toLowerCase();
+        let result = posts.filter(p => {
+            let tags = p.data.journaltags.map(s => s.toLowerCase());
+            return tags.includes(tag);
+        });
+        return result;
     });
 
     return {
