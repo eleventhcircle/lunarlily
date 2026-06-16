@@ -1,0 +1,28 @@
+---
+layout: page_base.njk
+title: journal index
+eleventyImport:
+    collections: ["journals"]
+---
+
+<div class="left">
+    <!-- tags list -->
+     <section class="green">
+        {% include "partials/taglist.njk" %}
+     </section>
+</div>
+
+<div class="right">
+    <!-- journal entries index -->
+     <section class="blue">
+        <h2>Now entering... The Yap Zone</h2>
+        <ul>
+            {% for entry in collections.journals | reverse %}
+            <li>
+                <a href="/journal/posts/{{ entry.data.url }}">{{ entry.data.title }}</a>
+                <p class="subtletext">{{ entry.data.postdate }} | Tagged: {{ entry.data.journaltags | join(", ") }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+     </section>
+</div>

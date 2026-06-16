@@ -5,7 +5,14 @@ layout: page_base.njk
 <div class="left">
     <!-- tags list -->
      <section class="green">
-        {% include "partials/journaltags.njk" %}
+        <h3>Tagged with:</h3>
+        <ul>
+        {% for tag in journaltags %}
+            <li>
+                <a href="/journal/tagged/{{ tag | slugify }}">{{ tag }}</a>
+            </li>
+        {% endfor %}    
+        </ul>
      </section>
 </div>
 

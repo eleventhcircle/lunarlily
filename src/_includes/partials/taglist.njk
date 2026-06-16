@@ -1,0 +1,8 @@
+        <h3>Tags list</h3>
+        <ul>
+        {% for tag in collections.tagslist %}
+            <li>
+                <a href="/journal/tagged/{{ tag | slugify }}">{{ tag }}</a>
+            </li>
+        {% endfor %}
+        </ul>
