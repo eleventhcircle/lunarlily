@@ -1,5 +1,16 @@
 [
     {
+        "title": "New features: journal tags and pagination!",
+        "date": "2026-06-16T16:06:00-07:00",
+        "link": "https://lunarlily.neocities.org/",
+        "id": "https://lunarlily.neocities.org/feed/260616/",
+        "summary": "<p>Small, more technical update today. I have become The Understander of 11ty collections (not really).</p>",
+        "fulldesc": "<p>I got a whole lot of books checked out right now and I wanna talk about them. Strap in.</p><ul class=\"listnopad\"><em><strong>New:</strong></em><li>The journal now has functioning tags! A full list of tags is on the index page, and each entry shows what it's tagged with. Clicking on a tag will bring you to a dedicated page with a list of all journal entries tagged with it.</li><li>The changelog now has pagination, to combat the ever-growing scroll from having every update on a single page.</ul><ul class=\"listnopad\"><em><strong>Updated:</strong></em><li>Metadata on journal entries to make tags functional. This is all backend, nothing in the entries themselves changed!</li></ul><ul class=\"listnopad\"><em><strong>Fixed:</strong></em><li>A couple minor typos I found while working on everything else lol</li></ul>",
+        "color": "purple",
+        "caldate": "16 June 2026",
+        "newest": true
+    }, 
+    {
         "title": "Time for more book talk",
         "date": "2026-06-13T18:17:00-07:00",
         "link": "https://lunarlily.neocities.org/2026-06-13",
@@ -7,8 +18,8 @@
         "summary": "<p>Someone please stop me from placing more holds at the library...</p>",
         "fulldesc": "<p>I got a whole lot of books checked out right now and I wanna talk about them. Strap in.<br>I have a couple little site projects cooking at the moment, so my next update might take a little while to finish... though I might try breaking it down into several smaller changes, instead of one big one like I usually do? We'll have to see. Either way, look forward to it :]</p><ul class=\"listnopad\"><em><strong>New:</strong></em><li>Journal post!</li><li>Thing of the Week: I have become Egg Man</ul><ul class=\"listnopad\"><em><strong>Updated:</strong></em><li>Nothing!</li></ul><ul class=\"listnopad\"><em><strong>Fixed:</strong></em><li>Nothing!</li></ul>",
         "color": "blue",
-        "caldate": "13 Jun 2026",
-        "newest": true
+        "caldate": "13 June 2026",
+        "newest": false
     }, 
     {
         "title": "New journal entry (twice in one month?!)",
@@ -40,7 +51,7 @@
         "summary": "<p>Say hello to the newest addition to lunarlily: the /now page! Got a new thing of the week to share too (and at the beginning of a week, no less).</p>",
         "fulldesc": "<p>Say hello to the newest addition to lunarlily: the /now page! Got a new thing of the week to share too (and at the beginning of a week, no less).</p>",
         "color": "orange",
-        "caldate": "6 Apr 2026",
+        "caldate": "6 April 2026",
         "newest": false
     },
 
@@ -52,7 +63,7 @@
         "summary": "<p>Yapping about the site overhaul in February (and a new TOTW). As with many things, a bit belated - but maybe it's better to not think of myself as on some sort of schedule?</p>",
         "fulldesc": "<p>Yapping about the site overhaul in February (and a new TOTW). As with many things, a bit belated - but maybe it's better to not think of myself as on some sort of schedule?</p>",
         "color": "red",
-        "caldate": "20 Mar 2026",
+        "caldate": "20 March 2026",
         "newest": false
     },
 
@@ -64,7 +75,7 @@
         "summary": "<p>Long time, no update! After several months of scattered late-night coding sessions, the site overhaul is (mostly) complete.</p><ul class=\"listnopad\"><li>Now built with Eleventy!</li><li>New site structure 100% coded by me (wow!)</li><li>Two new pages (links and changelog)</li><li>A shiny new coat of CSS paint :]</li></ul><p>I'd like to talk about the process and some of the problems I ran into, but I want to get the actual update out first. Keep an eye out for a write-up soon!</p>",
         "fulldesc": "<p>Long time, no update! After several months of scattered late-night coding sessions, the site overhaul is (mostly) complete.</p><ul class=\"listnopad\"><li>Now built with Eleventy!</li><li>New site structure 100% coded by me (wow!)</li><li>Two new pages (links and changelog)</li><li>A shiny new coat of CSS paint :]</li></ul><p>I'd like to talk about the process and some of the problems I ran into, but I want to get the actual update out first. Keep an eye out for a write-up soon!</p>",
         "color": "purple",
-        "caldate": "1 Feb 2026",
+        "caldate": "1 February 2026",
         "newest": false
     },
 
@@ -76,7 +87,7 @@
         "summary": "Finally breaking the Thursday update stretch. New TOTW, the exciting (and very belated!) first addition to the Neighbors section, and a little notice about ongoing site construction (which is why I've been rather quiet!)",
         "fulldesc": "<p>Finally breaking the Thursday update stretch. New TOTW, the exciting (and very belated!) first addition to the Neighbors section, and a little notice about ongoing site construction (which is why I've been rather quiet!)</p>",
         "color": "blue",
-        "caldate": "23 Nov 2025",
+        "caldate": "23 November 2025",
         "newest": false
     },
 
@@ -88,7 +99,7 @@
         "summary": "New entry in the journal and a new TOTW. Whenever I update the site, it somehow always ends up on a Thursday...",
         "fulldesc": "<p>New entry in the journal and a new TOTW. Whenever I update the site, it somehow always ends up on a Thursday...</p>",
         "color": "green",
-        "caldate": "16 Oct 2025",
+        "caldate": "16 October 2025",
         "newest": false
     },
 
@@ -100,7 +111,7 @@
         "summary": "New TOTW! Working on several bigger things behind the scenes, life got busy for a bit so I have nothing to show yet but they're coming",
         "fulldesc": "<p>New TOTW! Working on several bigger things behind the scenes, life got busy for a bit so I have nothing to show yet but they're coming</p>",
         "color": "yellow",
-        "caldate": "9 Oct 2025",
+        "caldate": "9 October 2025",
         "newest": false
     },
 
@@ -112,7 +123,7 @@
         "summary": "New TOTW, reorganized the archive to be in reverse chronological order (newest to oldest), a few housekeeping things too.",
         "fulldesc": "<p>New TOTW, reorganized the archive to be in reverse chronological order (newest to oldest), a few housekeeping things too.</p>",
         "color": "orange",
-        "caldate": "25 Sep 2025",
+        "caldate": "25 September 2025",
         "newest": false
     },
     
@@ -124,7 +135,7 @@
         "summary": "If I set everything up correctly, there should now be a link on the right sidebar to this RSS feed! Hello! I also updated a few things on the credits page, including links to helpful RSS guides and some new VSCode extensions I started using recently.",
         "fulldesc": "<p>If I set everything up correctly, there should now be a link on the right sidebar to this RSS feed! Hello! I also updated a few things on the credits page, including links to helpful RSS guides and some new VSCode extensions I started using recently.</p>",
         "color": "red",
-        "caldate": "11 Sep 2025",
+        "caldate": "11 September 2025",
         "newest": false
     }
 ]
