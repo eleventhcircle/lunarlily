@@ -1,14 +1,25 @@
 [
     {
+        "title": "Happy first birthday to lunarlily!",
+        "date": "2026-07-19T17:00:00-07:00",
+        "link": "https://lunarlily.neocities.org/journal/posts/2026-07-19",
+        "id": "https://lunarlily.neocities.org/feed/260719/",
+        "summary": "<p><em>[muffled How Far We've Come playing from the other room]</em></p>",
+        "fulldesc": "<p>I don't have any excuses for why I'm posting this reflection two weeks late I just straight up forgor what month it is.</p><ul class=\"listnopad\"><em><strong>New:</strong></em><li>Yapping in the journal about the site and some thoughts for the future...</li><li>New thing of the week (that's really more a thing of the month at this point) (i'm not changing the name tho)</li></ul><ul class=\"listnopad\"><em><strong>Updated:</strong></em><li>Nothing!</li></ul><ul class=\"listnopad\"><em><strong>Fixed:</strong></em><li>Apparently I never updated the sitemap to reflect the now page going live, my bad</li></ul>",
+        "color": "red",
+        "caldate": "19 July 2026",
+        "newest": true
+    }, 
+    {
         "title": "New features: journal tags and pagination!",
         "date": "2026-06-16T16:06:00-07:00",
         "link": "https://lunarlily.neocities.org/",
         "id": "https://lunarlily.neocities.org/feed/260616/",
-        "summary": "<p>Small, more technical update today. I have become The Understander of 11ty collections (not really).</p>",
-        "fulldesc": "<p>I got a whole lot of books checked out right now and I wanna talk about them. Strap in.</p><ul class=\"listnopad\"><em><strong>New:</strong></em><li>The journal now has functioning tags! A full list of tags is on the index page, and each entry shows what it's tagged with. Clicking on a tag will bring you to a dedicated page with a list of all journal entries tagged with it.</li><li>The changelog now has pagination, to combat the ever-growing scroll from having every update on a single page.</ul><ul class=\"listnopad\"><em><strong>Updated:</strong></em><li>Metadata on journal entries to make tags functional. This is all backend, nothing in the entries themselves changed!</li></ul><ul class=\"listnopad\"><em><strong>Fixed:</strong></em><li>A couple minor typos I found while working on everything else lol</li></ul>",
+        "summary": "<p>[Small, more technical update today. I have become The Understander of 11ty collections (not really).]</p>",
+        "fulldesc": "<ul class=\"listnopad\"><em><strong>New:</strong></em><li>The journal now has functioning tags! A full list of tags is on the index page, and each entry shows what it's tagged with. Clicking on a tag will bring you to a dedicated page with a list of all journal entries tagged with it.</li><li>The changelog now has pagination, to combat the ever-growing scroll from having every update on a single page.</ul><ul class=\"listnopad\"><em><strong>Updated:</strong></em><li>Metadata on journal entries to make tags functional. This is all backend, nothing in the entries themselves changed!</li></ul><ul class=\"listnopad\"><em><strong>Fixed:</strong></em><li>A couple minor typos I found while working on everything else lol</li></ul>",
         "color": "purple",
         "caldate": "16 June 2026",
-        "newest": true
+        "newest": false
     }, 
     {
         "title": "Time for more book talk",
