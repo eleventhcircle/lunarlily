@@ -1,5 +1,16 @@
 [
     {
+        "title": "/now page updated",
+        "date": "2026-09-30T19:04:00-07:00",
+        "link": "https://lunarlily.neocities.org/now",
+        "id": "https://lunarlily.neocities.org/feed/260930/",
+        "summary": "<p>What have I been up to lately? Take a look :]</p>",
+        "fulldesc": "<p>Yeah that's right I'm squeezing the September update in at the last possible minute do you guys still think I'm cool</p><ul class=\"listnopad\"><em><strong>New:</strong></em><li>New thing of the week</li></ul><ul class=\"listnopad\"><em><strong>Updated:</strong></em><li>/now page updated with all the fun and cool things I've been up to and into recently</li></ul><ul class=\"listnopad\"><em><strong>Fixed:</strong></em><li>Nothing!</li></ul>",
+        "color": "yellow",
+        "caldate": "30 September 2026",
+        "newest": true
+    },
+    {
         "title": "Happy not-first birthday to Luna!",
         "date": "2026-08-21T22:00:00-07:00",
         "link": "https://lunarlily.neocities.org/journal/posts/2026-08-21",
@@ -8,7 +19,7 @@
         "fulldesc": "<p>I've got three new things for the site cooking at the same time, which means progress on everything is proceeding at a snail's pace but it's gonna be so epic when it's all done.</p><ul class=\"listnopad\"><em><strong>New:</strong></em><li>eyyyy I was the little birthday guy and I yapped about it because I looooove yapping *jazz hands*</li><li>New thing of the week</li></ul><ul class=\"listnopad\"><em><strong>Updated:</strong></em><li>Nothing!</li></ul><ul class=\"listnopad\"><em><strong>Fixed:</strong></em><li>I forgot to add alt text for the images in July's journal; I've gone back and fixed that.</li></ul>",
         "color": "orange",
         "caldate": "21 August 2026",
-        "newest": true
+        "newest": false
     }, 
     {
         "title": "Happy first birthday to lunarlily!",

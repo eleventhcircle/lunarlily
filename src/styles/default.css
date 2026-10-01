@@ -184,3 +184,12 @@ a[href*="//"]::after {
     width:450px;
     border-radius:10px;
 }
+
+/* clearing floats using the clearfix hack: https://www.w3schools.com/howto/howto_css_clearfix.asp
+If an element is taller than the element containing it, and it is floated, it will overflow outside of its container. The following snippet fixes this!
+Add clearfix as a class to any element containing an element that is taller than the base element. */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
