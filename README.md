@@ -12,6 +12,7 @@ At some point I might remove this copy of the changelog and just link to the act
 
 ### 2026  
 
+- **30 September 2026:** Updated the /now page and posted a new TOTW
 - **21 August 2026:** A new journal entry and new TOTW. Happy not-first birthday to me!
 - **19 July 2026:** A new journal entry and new TOTW. Happy first birthday to the site!
 - **16 June 2026:** New features: journal tags and pagination
